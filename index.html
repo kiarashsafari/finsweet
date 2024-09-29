@@ -1,0 +1,1138 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Finsweet</title>
+    <link rel="stylesheet" href="public/CSS/main.css" />
+    <link rel="icon" type="image/x-icon" href="./public/Images/favicon.ico" />
+  </head>
+
+  <body>
+    <!--Project Start-->
+    <div class="wrapper bg-white dark:bg-[#1D232A]">
+      <!--Navbar Start-->
+      <div class="w-full h-[92px] bg-tint-blue flex">
+        <div
+          class="w-full lg:w-[80%] h-[92px] m-auto flex items-center justify-between"
+        >
+          <a href="./index.html" class="ml-[20px] lg:ml-[0px]">
+            <img
+              src="./public/Images/Navbar/logo.svg"
+              alt="logo"
+              class="w-[122px] h-[24.71px]"
+            />
+          </a>
+          <div
+            class="w-fit h-[92px] lg:flex items-center gap-[32px] hidden text-white"
+          >
+            <a href="index.html" class="font-[500] text-[16px] opacity-70"
+              >Home</a
+            >
+            <a href="./AboutUs.html" class="font-[500] text-[16px] opacity-70"
+              >About us</a
+            >
+            <a href="./Features.html" class="font-[500] text-[16px] opacity-70"
+              >Features</a
+            >
+            <a href="./Pricing.html" class="font-[500] text-[16px] opacity-70"
+              >Pricing</a
+            >
+            <a href="./Work.html" class="font-[500] text-[16px] opacity-70"
+              >FAQ</a
+            >
+            <a href="./BlogPage.html" class="font-[500] text-[16px] opacity-70"
+              >Blog</a
+            >
+            <a
+              href="ContactUs.html"
+              class="lg:flex w-[185px] h-[60px] rounded-[41px] border-solid border-2 border-[#464974] text-white justify-center items-center hover:bg-yellow hover:text-black dark:hover:bg-black"
+            >
+              <div>Contact us</div>
+            </a>
+          </div>
+          <div class="lg:hidden mr-[20px]">
+            <button
+              class="btn bg-tint-blue w-[60px] h-[60px] border-solid border-2 border-white texb hover:bg-black"
+              onclick="my_modal_3.showModal()"
+            >
+              f
+              <img src="./public/Images/Navbar/menu.svg" alt="" />
+            </button>
+            <dialog
+              id="my_modal_3"
+              class="modal bg-tint-blue flex flex-wrap flex-col pl-[3%] items-center gap-[20px]"
+            >
+              <form method="dialog" class="w-full h-10">
+                <div class="g-[100px]">
+                  <button
+                    type="button"
+                    class="btn btn-sm btn-circle btn-ghost absolute right-6 top-2 text-[20px] bg-white text-black"
+                  >
+                    ✕
+                  </button>
+                </div>
+              </form>
+              <a
+                href="./index.html"
+                class="w-[70%] h-[40px] bg-white text-center leading-[40px] rounded-xl dark:hover:text-black hover:bg-yellow transition-all duration-150 dark:bg-black"
+                >Home</a
+              >
+              <a
+                href="./AboutUs.html"
+                class="w-[70%] h-[40px] bg-white text-center leading-[40px] rounded-xl dark:hover:text-black hover:bg-yellow transition-all duration-150 dark:bg-black"
+                >About us</a
+              >
+              <a
+                href="./Features.html"
+                class="w-[70%] h-[40px] bg-white text-center leading-[40px] rounded-xl dark:hover:text-black hover:bg-yellow transition-all duration-150 dark:bg-black"
+                >Features</a
+              >
+              <a
+                href="./Pricing.html"
+                class="w-[70%] h-[40px] bg-white text-center leading-[40px] rounded-xl dark:hover:text-black hover:bg-yellow transition-all duration-150 dark:bg-black"
+                >Pricing</a
+              >
+              <a
+                href="./Work.html"
+                class="w-[70%] h-[40px] bg-white text-center leading-[40px] rounded-xl dark:hover:text-black hover:bg-yellow dark:bg-black"
+                >FAQ</a
+              >
+              <a
+                href="./BlogPage.html"
+                class="w-[70%] h-[40px] bg-white text-center leading-[40px] rounded-xl dark:hover:text-black hover:bg-yellow dark:bg-black"
+                >Blog</a
+              >
+              <a
+                href="./ContactUs.html"
+                class="w-[70%] h-[60px] bg-white text-center leading-[60px] rounded-xl dark:hover:text-black hover:bg-yellow dark:bg-black"
+                >Contact us</a
+              >
+            </dialog>
+          </div>
+        </div>
+      </div>
+      <!--Navbar End-->
+
+      <!--Home Hero Start-->
+      <div
+        class="w-full h-fit lg:h-[500px] bg-tint-blue lg:flex flex-row-reverse z-1"
+      >
+        <div class="w-[80%] lg:w-[40%] m-auto pt-[20px] lg:pr-[5%]">
+          <img
+            src="./public/Images/Home Hero/main.svg"
+            alt=""
+            class="w-[80%] lg:w-[100%] m-auto"
+          />
+        </div>
+        <div class="w-[80%] lg:w-[40%] m-auto lg:pl-[5%]">
+          <div
+            class="text-[40px] font-[600] text-white pt-8 text-center lg:text-start"
+          >
+            Building stellar websites for early startups
+          </div>
+          <div
+            class="text-[14px] font-[400] pt-[25px] text-center lg:text-start text-white"
+          >
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+            eiusmod tempor incididunt.
+          </div>
+          <div
+            class="w-[100%] flex justify-evenly flex-wrap items-center py-[50px]"
+          >
+            <a
+              href="./Work.html"
+              class="w-[200px] h-[65px] bg-yellow flex justify-center items-center rounded-[41px] text-black"
+            >
+              View our Work
+            </a>
+            <a
+              href="./Pricing.html"
+              class="w-[170px] flex gap-x-[10px] text-white justify-center items-center h-[65px] leading-[65px]"
+            >
+              View Pricing
+              <img src="./public/Images/Home Hero/flash.svg" alt="" />
+            </a>
+          </div>
+        </div>
+      </div>
+      <!--Home Hero End-->
+
+      <!--This is How We Work Start-->
+      <div class="flex flex-col lg:flex-row lg:w-[80%] m-auto">
+        <div class="w-[80%] lg:w-[50%] m-auto flex flex-col gap-y-[15px]">
+          <div class="text-[48px] font-[600] text-center lg:text-start">
+            How We Work
+          </div>
+          <div class="text-center lg:text-start">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+            eiusmod tempor.
+          </div>
+
+          <a
+            href="ContactUs.html"
+            class="text-royal-blue dark:text-yellow flex gap-[10px] justify-center items-center lg:justify-start"
+          >
+            Get in touch with us
+            <img
+              class="dark:hidden"
+              src="./public/Images/This is how we work/pink-flash.svg"
+              alt=""
+            />
+            <img
+              class="hidden dark:inline-block"
+              src="./public/Images/This is how we work/yellow-flash.svg"
+              alt=""
+            />
+          </a>
+        </div>
+        <div class="flex w-[80%] m-auto pt-[50px]">
+          <div class="w-[50%] pl-[5%] pb-[30px] flex flex-col gap-y-[20px]">
+            <div class="flex flex-col gap-y-[10px]">
+              <div class="flex justify-center items-center lg:justify-start">
+                <img
+                  src="./public/Images/This is how we work/1icon.svg"
+                  alt=""
+                  class="w-[50px]"
+                />
+              </div>
+              <div
+                class="lg:text-[32px] text-[20px] font-[500] w-[80%] m-auto text-center lg:m-0 lg:text-start"
+              >
+                Strategy
+              </div>
+              <div
+                class="font-[400] text-[12px] lg:text-[16px] w-full text-center lg:text-start"
+              >
+                Euismod faucibus turpis eu gravida mi. Pellentesque et velit
+                aliquam
+              </div>
+            </div>
+            <div class="flex flex-col gap-y-[10px]">
+              <div class="flex justify-center items-center lg:justify-start">
+                <img
+                  src="./public/Images/This is how we work/3icon.svg"
+                  alt=""
+                  class="w-[50px]"
+                />
+              </div>
+              <div
+                class="lg:text-[32px] text-[20px] font-[500] w-[80%] m-auto text-center lg:m-0 lg:text-start"
+              >
+                Wireframing
+              </div>
+              <div
+                class="font-[400] text-[12px] lg:text-[16px] w-full text-center lg:text-start"
+              >
+                Euismod faucibus turpis eu gravida mi. Pellentesque et velit
+                aliquam
+              </div>
+            </div>
+          </div>
+          <div class="w-[50%] pl-[5%] pb-[30px] flex flex-col gap-y-[20px]">
+            <div class="flex flex-col gap-y-[10px]">
+              <div class="flex justify-center items-center lg:justify-start">
+                <img
+                  src="./public/Images/This is how we work/2icon.svg"
+                  alt=""
+                  class="w-[50px]"
+                />
+              </div>
+              <div
+                class="lg:text-[32px] text-[20px] font-[500] w-[80%] m-auto text-center lg:m-0 lg:text-start"
+              >
+                Design
+              </div>
+              <div
+                class="font-[400] text-[12px] lg:text-[16px] w-full text-center lg:text-start"
+              >
+                Euismod faucibus turpis eu gravida mi. Pellentesque et velit
+                aliquam
+              </div>
+            </div>
+            <div class="flex flex-col gap-y-[10px]">
+              <div class="flex justify-center items-center lg:justify-start">
+                <img
+                  src="./public/Images/This is how we work/4icon.svg"
+                  alt=""
+                  class="w-[50px]"
+                />
+              </div>
+              <div
+                class="lg:text-[32px] text-[20px] font-[500] w-[80%] m-auto text-center lg:m-0 lg:text-start"
+              >
+                Development
+              </div>
+              <div
+                class="font-[400] text-[12px] lg:text-[16px] w-full text-center lg:text-start"
+              >
+                Euismod faucibus turpis eu gravida mi. Pellentesque et velit
+                aliquam
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!--This is How We Work End-->
+
+      <!--Our work Start-->
+      <div class="w-[80%] h-fit m-auto pt-[50px] pb-[15vh] z-1">
+        <div
+          class="w-full flex flex-wrap justify-between items-center pb-[50px]"
+        >
+          <div class="text-[48px] font-[600]">View our Projects</div>
+          <a
+            href="./Work.html"
+            class="text-[16px] font-[500] flex gap-3 text-royal-blue dark:text-yellow"
+          >
+            View More
+            <img
+              class="dark:hidden"
+              src="./public/Images/Our Work/black flash.svg"
+              alt=""
+            />
+            <img
+              class="hidden dark:inline-block"
+              src="./public/Images/Our Work/yellow flash.svg"
+              alt=""
+            />
+          </a>
+        </div>
+        <div class="lg:flex lg:justify-between">
+          <div
+            class="relative w-full lg:w-[60%] h-[80vh] overflow-hidden group"
+          >
+            <img
+              src="./public/Images/Our Work/img-1.jpg"
+              alt=""
+              class="w-full h-full object-cover"
+            />
+            <div
+              class="w-full lg:w-[50%] pt-[30%] h-full absolute top-0 left-0 bg-gradient-to-tl from-[#1C1E53] to-[#1C1E5355] transition-all duration-300 opacity-0 group-hover:opacity-100"
+            >
+              <div class="w-full flex flex-col gap-y-[20px]">
+                <div
+                  class="w-full m-auto text-[24px] font-[600] text-white pl-[5%]"
+                >
+                  Workhub office Webflow Webflow Design
+                </div>
+                <div
+                  class="w-full m-auto text-[16px] font-[400] text-white pl-[5%]"
+                >
+                  Euismod faucibus turpis eu gravida mi. Pellentesque et velit
+                  aliquam
+                </div>
+                <a
+                  href="./Work.html"
+                  class="w-full text-yellow flex gap-x-[10px] text-start pl-[5%]"
+                  >View Project
+                  <img src="./public/Images/Our Work/yellow flash.svg" alt=""
+                /></a>
+              </div>
+            </div>
+          </div>
+          <div class="lg:w-[35%] flex pt-[20px] lg:p-0 lg:flex-col">
+            <div
+              class="relative w-[48%] lg:w-[100%] h-[50vh] lg:h-[35vh] overflow-hidden group m-auto lg:m-0"
+            >
+              <img
+                src="./public/Images/Our Work/img-2.jpg"
+                alt=""
+                class="w-full h-full object-cover"
+              />
+              <div
+                class="w-full lg:w-[50%] pt-[30%] h-full absolute top-0 left-0 bg-gradient-to-tl from-[#1C1E53] to-[#1C1E5355] transition-all duration-300 opacity-0 group-hover:opacity-100"
+              >
+                <div class="w-full flex flex-col gap-y-[20px]">
+                  <div
+                    class="w-full m-auto text-[24px] lg:text-[16px] font-[600] text-white pl-[5%]"
+                  >
+                    Unisaas Website Design
+                  </div>
+                  <a
+                    href="./Work.html"
+                    class="w-full text-yellow flex gap-x-[10px] text-start pl-[5%] lg:text-[14px]"
+                    >View Portfolio
+                    <img src="./public/Images/Our Work/yellow flash.svg" alt=""
+                  /></a>
+                </div>
+              </div>
+            </div>
+
+            <div
+              class="relative w-[48%] lg:w-[100%] h-[50vh] lg:h-[35vh] overflow-hidden group m-auto lg:m-0 lg:mt-[10vh]"
+            >
+              <img
+                src="./public/Images/Our Work/img-3.jpg"
+                alt=""
+                class="w-full h-full object-cover"
+              />
+              <div
+                class="w-full lg:w-[50%] pt-[30%] h-full absolute top-0 left-0 bg-gradient-to-tl from-[#1C1E53] to-[#1C1E5355] transition-all duration-300 opacity-0 group-hover:opacity-100"
+              >
+                <div class="w-full flex flex-col gap-y-[20px]">
+                  <div
+                    class="w-full m-auto text-[24px] lg:text-[16px] font-[600] text-white pl-[5%]"
+                  >
+                    Unisaas Website Design
+                  </div>
+
+                  <a
+                    href="./Work.html"
+                    class="w-full text-yellow flex gap-x-[10px] lg:text-[14px] text-start pl-[5%]"
+                    >View portfolio
+                    <img src="./public/Images/Our Work/yellow flash.svg" alt=""
+                  /></a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!--Our work End-->
+
+      <!--Features Start-->
+      <div class="w-full h-fit bg-[#F4F6FC] dark:bg-black pb-[15vh]">
+        <div class="w-[80%] m-auto flex flex-col gap-y-[20px]">
+          <div class="w-full text-center text-[16px] font-[500] pt-[15vh]">
+            Features
+          </div>
+          <div
+            class="w-[50%] m-auto text-center text-[20px] lg:text-[35px] font-[600]"
+          >
+            Design that solves problems, one product at a time
+          </div>
+          <div class="flex flex-wrap gap-[20px] justify-center">
+            <div
+              class="w-[32%] h-fit bg-white dark:bg-slate-600 p-[20px] flex flex-col gap-y-[20px]"
+            >
+              <div class="">
+                <img
+                  class="dark:hidden"
+                  src="./public/Images/Features/icon1.svg"
+                  alt=""
+                />
+                <img
+                  class="hidden dark:inline-block"
+                  src="./public/Images/Features/icon1b.svg"
+                  alt=""
+                />
+              </div>
+              <div class="text-[14px] lg:text-[24px] font-[400] line-clamp-2">
+                Uses Client First
+              </div>
+              <div class="line-clamp-4 text-[13px] lg:text-[16px]">
+                Euismod faucibus turpis eu gravida mi. Pellentesque et velit
+                aliquam sed faucib turpis eu gravida mi. Pellentesque et velit
+                aliquam sed mi.
+              </div>
+            </div>
+            <div
+              class="w-[32%] h-fit bg-white dark:bg-slate-600 p-[20px] flex flex-col gap-y-[20px]"
+            >
+              <div class="">
+                <img
+                  class="dark:hidden"
+                  src="./public/Images/Features/icon2.svg"
+                  alt=""
+                />
+                <img
+                  class="hidden dark:inline-block"
+                  src="./public/Images/Features/icon2b.svg"
+                  alt=""
+                />
+              </div>
+              <div class="text-[14px] lg:text-[24px] font-[400] line-clamp-2">
+                Two Free Revision Round
+              </div>
+              <div class="line-clamp-4 text-[13px] lg:text-[16px]">
+                Euismod faucibus turpis eu gravida mi. Pellentesque et velit
+                aliquam sed faucib turpis eu gravida mi. Pellentesque et velit
+                aliquam sed mi.
+              </div>
+            </div>
+            <div
+              class="w-[32%] h-fit bg-white dark:bg-slate-600 p-[20px] flex flex-col gap-y-[20px]"
+            >
+              <div class="">
+                <img
+                  class="dark:hidden"
+                  src="./public/Images/Features/icon3.svg"
+                  alt=""
+                />
+                <img
+                  class="hidden dark:inline-block"
+                  src="./public/Images/Features/icon3b.svg"
+                  alt=""
+                />
+              </div>
+              <div class="text-[14px] lg:text-[24px] font-[400] line-clamp-2">
+                Template Customization
+              </div>
+              <div class="line-clamp-4 text-[13px] lg:text-[16px]">
+                Euismod faucibus turpis eu gravida mi. Pellentesque et velit
+                aliquam sed faucib turpis eu gravida mi. Pellentesque et velit
+                aliquam sed mi.
+              </div>
+            </div>
+            <div
+              class="w-[32%] h-fit bg-white dark:bg-slate-600 p-[20px] flex flex-col gap-y-[20px]"
+            >
+              <div class="">
+                <img
+                  class="dark:hidden"
+                  src="./public/Images/Features/icon4.svg"
+                  alt=""
+                />
+                <img
+                  class="hidden dark:inline-block"
+                  src="./public/Images/Features/icon4b.svg"
+                  alt=""
+                />
+              </div>
+              <div class="text-[14px] lg:text-[24px] font-[400] line-clamp-2">
+                24/7 Support
+              </div>
+              <div class="line-clamp-4 text-[13px] lg:text-[16px]">
+                Euismod faucibus turpis eu gravida mi. Pellentesque et velit
+                aliquam sed faucib turpis eu gravida mi. Pellentesque et velit
+                aliquam sed mi.
+              </div>
+            </div>
+            <div
+              class="w-[32%] h-fit bg-white dark:bg-slate-600 p-[20px] flex flex-col gap-y-[20px]"
+            >
+              <div class="">
+                <img
+                  class="dark:hidden"
+                  src="./public/Images/Features/icon5.svg"
+                  alt=""
+                />
+                <img
+                  class="hidden dark:inline-block"
+                  src="./public/Images/Features/icon5b.svg"
+                  alt=""
+                />
+              </div>
+              <div class="text-[14px] lg:text-[24px] font-[400] line-clamp-2">
+                Quick Delivery
+              </div>
+              <div class="line-clamp-4 text-[13px] lg:text-[16px]">
+                Euismod faucibus turpis eu gravida mi. Pellentesque et velit
+                aliquam sed faucib turpis eu gravida mi. Pellentesque et velit
+                aliquam sed mi.
+              </div>
+            </div>
+            <div
+              class="w-[32%] h-fit bg-white dark:bg-slate-600 p-[20px] flex flex-col gap-y-[20px]"
+            >
+              <div class="">
+                <img
+                  class="dark:hidden"
+                  src="./public/Images/Features/icon6.svg"
+                  alt=""
+                />
+                <img
+                  class="hidden dark:inline-block"
+                  src="./public/Images/Features/icon6b.svg"
+                  alt=""
+                />
+              </div>
+              <div class="text-[14px] lg:text-[24px] font-[400] line-clamp-2">
+                Hands-on approach
+              </div>
+              <div class="line-clamp-4 text-[13px] lg:text-[16px]">
+                Euismod faucibus turpis eu gravida mi. Pellentesque et velit
+                aliquam sed faucib turpis eu gravida mi. Pellentesque et velit
+                aliquam sed mi.
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!--Features End-->
+
+      <!--Testimonials Start-->
+      <div class="w-full h-fit bg-[#dae0f3] dark:bg-[#3a58bb] py-[15vh]">
+        <div
+          class="w-[80%] flex flex-col lg:flex-row gap-y-[16px] m-auto justify-start items-center"
+        >
+          <div
+            class="w-[80%] text-center lg:text-start lg:w-[30%] m-auto flex flex-col gap-y-[15px]"
+          >
+            <div class="lg:text-[38px] text-[30px] w-full">
+              What our clients say about us
+            </div>
+            <div class="text-[15px]">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit sed.
+            </div>
+          </div>
+          <div class="w-full lg:w-[70%] h-[40vh] bg-white rounded-md">
+            <div class="carousel w-full h-[40vh]">
+              <div id="slide1" class="carousel-item relative w-full">
+                <div class="w-full m-auto h-full flex flex-col">
+                  <div
+                    class="w-[80%] m-auto text-[20px] lg:text-[28px] lg:leading-[48px] line-clamp-3 dark:text-black"
+                  >
+                    "The best agency we’ve worked with so far. They understand
+                    ourable to add new features with a great focus."
+                  </div>
+                  <div class="flex w-[80%] m-auto gap-x-[15px]">
+                    <div class="avatar">
+                      <div class="w-[50px] rounded-full">
+                        <img
+                          src="./public/Images/Testimonials/avatar-1.jpg"
+                          alt="photo"
+                        />
+                      </div>
+                    </div>
+                    <div class="font-[400]">
+                      <div class="text-[18px] dark:text-black">raisi</div>
+                      <div class="text-[12px] dark:text-black">
+                        iran President
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+                <div
+                  class="absolute right-[10px] bottom-[10px] flex gap-x-2 transform"
+                >
+                  <a
+                    href="#slide4"
+                    class="btn btn-circle active:bg-royal-blue active:text-white"
+                    >❮</a
+                  >
+                  <a
+                    href="#slide2"
+                    class="btn btn-circle active:bg-royal-blue active:text-white"
+                    >❯</a
+                  >
+                </div>
+              </div>
+              <div id="slide2" class="carousel-item relative w-full">
+                <div class="w-full m-auto h-full flex flex-col">
+                  <div
+                    class="w-[80%] m-auto text-[20px] lg:text-[28px] lg:leading-[48px] line-clamp-3 dark:text-black"
+                  >
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Obcaecati, quam ratione suscipit debitis repellendus,
+                    possimus nisi mat reiciendis?
+                  </div>
+                  <div class="flex w-[80%] m-auto gap-x-[15px]">
+                    <div class="avatar">
+                      <div class="w-[50px] rounded-full">
+                        <img
+                          src="./public/Images/Testimonials/avatar-2.jpg"
+                          alt="photo"
+                        />
+                      </div>
+                    </div>
+                    <div class="font-[400]">
+                      <div class="text-[18px] dark:text-black">
+                        Jennifer lopez
+                      </div>
+                      <div class="text-[12px] dark:text-black">usa actress</div>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="absolute right-[10px] bottom-[10px] flex gap-x-2">
+                  <a
+                    href="#slide1"
+                    class="btn btn-circle active:bg-royal-blue active:text-white"
+                    >❮</a
+                  >
+                  <a
+                    href="#slide3"
+                    class="btn btn-circle active:bg-royal-blue active:text-white"
+                    >❯</a
+                  >
+                </div>
+              </div>
+              <div id="slide3" class="carousel-item relative w-full">
+                <div class="w-full m-auto h-full flex flex-col">
+                  <div
+                    class="w-[80%] m-auto text-[20px] lg:text-[28px] lg:leading-[48px] line-clamp-3 dark:text-black"
+                  >
+                    "Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Exercitationem nulla, iure sit odio architecto repellat
+                    perferendis impedit doloremque excepturi, saepe at maiores."
+                  </div>
+                  <div class="flex w-[80%] m-auto gap-x-[15px]">
+                    <div class="avatar">
+                      <div class="w-[50px] rounded-full">
+                        <img
+                          src="./public/Images/Testimonials/avatar-3.jpg"
+                          alt="photo"
+                        />
+                      </div>
+                    </div>
+                    <div class="font-[400]">
+                      <div class="text-[18px] dark:text-black">
+                        kiarash safari
+                      </div>
+                      <div class="text-[12px] dark:text-black">
+                        frontend-developer
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+                <div
+                  class="absolute right-[10px] bottom-[10px] flex gap-x-2 transform"
+                >
+                  <a
+                    href="#slide2"
+                    class="btn btn-circle active:bg-royal-blue active:text-white"
+                    >❮</a
+                  >
+                  <a
+                    href="#slide4"
+                    class="btn btn-circle active:bg-royal-blue active:text-white"
+                    >❯</a
+                  >
+                </div>
+              </div>
+              <div id="slide4" class="carousel-item relative w-full">
+                <div class="w-full m-auto h-full flex flex-col">
+                  <div
+                    class="w-[80%] m-auto text-[20px] lg:text-[28px] lg:leading-[48px] line-clamp-3 dark:text-black"
+                  >
+                    "Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Quas earum ullam accusamus. Pariatur, mollitia
+                    exercitationem quasi consequ."
+                  </div>
+                  <div class="flex w-[80%] m-auto gap-x-[15px]">
+                    <div class="avatar">
+                      <div class="w-[50px] rounded-full">
+                        <img
+                          src="./public/Images/Testimonials/avatar-4.jpg"
+                          alt="photo"
+                        />
+                      </div>
+                    </div>
+                    <div class="font-[400]">
+                      <div class="text-[18px] dark:text-black">
+                        aga mamadreza
+                      </div>
+                      <div class="text-[12px] dark:text-black">moalem</div>
+                    </div>
+                  </div>
+                </div>
+
+                <div
+                  class="absolute right-[10px] bottom-[10px] flex gap-x-2 transform"
+                >
+                  <a
+                    href="#slide3"
+                    class="btn btn-circle active:bg-royal-blue active:text-white"
+                    >❮</a
+                  >
+                  <a
+                    href="#slide1"
+                    class="btn btn-circle active:bg-royal-blue active:text-white"
+                    >❯</a
+                  >
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!--Testimonials End-->
+
+      <!--FAQ Start-->
+      <div class="w-[80%] h-fit py-[15vh] lg:flex m-auto justify-between">
+        <div
+          class="w-full lg:w-[30%] text-center lg:text-start flex flex-col gap-y-[15px]"
+        >
+          <div class="text-[38px] font-[600] leading-[56px]">
+            Frequently asked questions
+          </div>
+          <a
+            href="./ContactUs.html"
+            class="text-royal-blue text-[18px] dark:text-yellow"
+            >Contact us for more info</a
+          >
+        </div>
+        <div class="w-full lg:w-[65%] flex flex-col gap-y-[5px]">
+          <div tabindex="0" class="collapse collapse-plus">
+            <div class="collapse-title text-xl font-medium flex">
+              <div
+                class="text-[18px] lg:text-[24px] text-royal-blue mr-[3%] dark:text-yellow"
+              >
+                01
+              </div>
+              <div class="text-[18px] lg:text-[24px]">
+                How much time does it take?
+              </div>
+            </div>
+            <div class="collapse-content w-[90%] pl-[8%]">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+              eiusmod tempor incididunt ut labore et dolore magna aliqua.
+            </div>
+          </div>
+          <span class="w-full m-auto h-[2px] bg-[#ECECF1]"></span>
+          <div tabindex="0" class="collapse collapse-plus">
+            <div class="collapse-title text-xl font-medium flex">
+              <div
+                class="text-[18px] lg:text-[24px] text-royal-blue mr-[3%] dark:text-yellow"
+              >
+                02
+              </div>
+              <div class="text-[18px] lg:text-[24px]">
+                What is your class naming convention?
+              </div>
+            </div>
+            <div class="collapse-content w-[90%] pl-[8%]">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+              eiusmod tempor incididunt ut labore et dolore magna aliqua.
+            </div>
+          </div>
+          <span class="w-full m-auto h-[2px] bg-[#ECECF1]"></span>
+          <div tabindex="0" class="collapse collapse-plus">
+            <div class="collapse-title text-xl font-medium flex">
+              <div
+                class="text-[18px] lg:text-[24px] text-royal-blue mr-[3%] dark:text-yellow"
+              >
+                03
+              </div>
+              <div class="text-[18px] lg:text-[24px]">
+                How do you communicate?
+              </div>
+            </div>
+            <div class="collapse-content w-[90%] pl-[8%]">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+              eiusmod tempor incididunt ut labore et dolore magna aliqua.
+            </div>
+          </div>
+          <span class="w-full m-auto h-[2px] bg-[#ECECF1]"></span>
+          <div tabindex="0" class="collapse collapse-plus">
+            <div class="collapse-title text-xl font-medium flex">
+              <div
+                class="text-[18px] lg:text-[24px] text-royal-blue mr-[3%] dark:text-yellow"
+              >
+                04
+              </div>
+              <div class="text-[18px] lg:text-[24px]">
+                I have a bigger project. Can you handle it?
+              </div>
+            </div>
+            <div class="collapse-content w-[90%] pl-[8%]">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+              eiusmod tempor incididunt ut labore et dolore magna aliqua.
+            </div>
+          </div>
+          <span class="w-full m-auto h-[2px] bg-[#ECECF1]"></span>
+          <div tabindex="0" class="collapse collapse-plus">
+            <div class="collapse-title text-xl font-medium flex">
+              <div
+                class="text-[18px] lg:text-[24px] text-royal-blue mr-[3%] dark:text-yellow"
+              >
+                05
+              </div>
+              <div class="text-[18px] lg:text-[24px]">
+                What is your class naming convention?
+              </div>
+            </div>
+            <div class="collapse-content w-[90%] pl-[8%]">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+              eiusmod tempor incididunt ut labore et dolore magna aliqua.
+            </div>
+          </div>
+        </div>
+      </div>
+      <!--FAQ End-->
+
+      <!--Contact Form Start-->
+      <div class="w-full lg:w-[80%] m-auto h-fit pb-[15vh] lg:flex">
+        <div class="w-[80%] lg:w-1/2 m-auto h-[80vh] relative">
+          <div class="w-full h-[80vh]">
+            <img
+              src="./public/Images/ContactUs/background.jpg"
+              alt=""
+              class="w-full h-full"
+            />
+          </div>
+          <div class="w-full h-[80vh] absolute left-0 top-0 bg-[#1C1E53aa]">
+            <div
+              class="w-[85%] m-auto p-[10%] text-white flex flex-col gap-y-[16px]"
+            >
+              <div class="lg:text-[35px] text-[20px] font-[600] pb-[10%]">
+                Building stellar websites for early startups
+              </div>
+              <div class="leading-[28px] line-clamp-6">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                eiusmod tempor incididunt ut labore et dolore magna aliqua ut
+                enim.
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="w-[80%] lg:w-1/2 h-[80vh] m-auto bg-[#1C1E53]">
+          <div
+            class="w-[70%] h-[80vh] m-auto text-white flex flex-col justify-center gap-y-[2%]"
+          >
+            <div class="w-full text-[32px] font-[400]">Send inquiry</div>
+            <div class="text-[16px] font-[500] line-clamp-3">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+              eiusmod tempor incididunt ut labore.
+            </div>
+            <div class="w-full flex flex-col gap-y-[10px]">
+              <input
+                type="text"
+                placeholder="Your Name"
+                class="input input-md w-full border-solid border-1 border-[gray] bg-transparent focus:bg-white focus:text-black"
+              />
+              <input
+                type="email"
+                placeholder="Email"
+                class="input input-md w-full border-solid border-1 border-[gray] bg-transparent focus:bg-white focus:text-black"
+              />
+              <input
+                type="text"
+                placeholder="Paste your Figma Design URL"
+                class="input input-md w-full border-solid border-1 border-[gray] bg-transparent focus:bg-white focus:text-black"
+              />
+            </div>
+            <a
+              href="./ContactUs.html"
+              class="w-full h-[60px] bg-yellow rounded-[41px] text-center leading-[60px] text-black"
+              >Send an Inquiry</a
+            >
+            <a
+              href="./ContactUs.html"
+              class="flex text-center w-full gap-x-[7px] justify-center items-center"
+              >Get in touch with us
+              <img src="./public/Images/Home Hero/flash.svg" alt=""
+            /></a>
+          </div>
+        </div>
+      </div>
+      <!--Contact Form End-->
+
+      <!--Blog Form Start-->
+      <div class="w-[80%] m-auto pb-[15vh]">
+        <div class="pb-[3vh] text-[48px] font-[600]">Our blog</div>
+        <div
+          class="w-full flex flex-col lg:flex-row gap-y-[16px] justify-between"
+        >
+          <div
+            class="lg:w-[30%] flex justify-center items-center bg-[#F4F6Fc] dark:bg-gray-700 p-[15px] rounded-md"
+          >
+            <div class="w-[90%] text-dark-blue flex-col flex gap-y-[16px]">
+              <img src="./public/Images/Blog/card-1.jpg" alt="" />
+              <div class="lg:text-[16px] text-[13px] font-[500]">
+                19 Jan 2022
+              </div>
+              <div class="font-[400] lg:text-[24px] text-[18px] line-clamp-3">
+                How one Webflow user grew his single person consultancy from
+                $0-100K in 14 months
+              </div>
+              <div
+                class="lg:text-[16px] text-[13px] fot-[400] leading-[28px] line-clamp-3"
+              >
+                See how pivoting to Webflow changed one person’s sales strategy
+                and allowed him to attract
+              </div>
+              <a
+                href="./BlogPage.html"
+                class="flex gap-x-3 items-center dark:text-white"
+                >Read More
+                <img
+                  class="dark:hidden"
+                  src="./public/Images/This is how we work/pink-flash.svg"
+                  alt="" />
+                <img
+                  class="hidden dark:inline-block"
+                  src="./public/Images/This is how we work/yellow-flash.svg"
+                  alt=""
+              /></a>
+            </div>
+          </div>
+          <div
+            class="lg:w-[30%] flex justify-center items-center bg-[#F4F6Fc] dark:bg-gray-700 p-[15px] rounded-md"
+          >
+            <div class="w-[90%] text-dark-blue flex-col flex gap-y-[16px]">
+              <img src="./public/Images/Blog/card-2.jpg" alt="" />
+              <div class="lg:text-[16px] text-[13px] font-[500]">
+                19 Jan 2022
+              </div>
+              <div class="font-[400] lg:text-[24px] text-[18px] line-clamp-3">
+                How one Webflow user grew his single person consultancy from
+                $0-100K in 14 months
+              </div>
+              <div
+                class="lg:text-[16px] text-[13px] fot-[400] leading-[28px] line-clamp-3"
+              >
+                See how pivoting to Webflow changed one person’s sales strategy
+                and allowed him to attract
+              </div>
+              <a
+                href="./BlogPage.html"
+                class="flex gap-x-3 items-center dark:text-white"
+                >Read More
+                <img
+                  class="dark:hidden"
+                  src="./public/Images/This is how we work/pink-flash.svg"
+                  alt="" />
+                <img
+                  class="hidden dark:inline-block"
+                  src="./public/Images/This is how we work/yellow-flash.svg"
+                  alt=""
+              /></a>
+            </div>
+          </div>
+          <div
+            class="lg:w-[30%] flex justify-center items-center bg-[#F4F6Fc] dark:bg-gray-700 p-[15px] rounded-md"
+          >
+            <div class="w-[90%] text-dark-blue flex-col flex gap-y-[16px]">
+              <img src="./public/Images/Blog/card-3.jpg" alt="" />
+              <div class="lg:text-[16px] text-[13px] font-[500]">
+                19 Jan 2022
+              </div>
+              <div class="font-[400] lg:text-[24px] text-[18px] line-clamp-3">
+                How one Webflow user grew his single person consultancy from
+                $0-100K in 14 months
+              </div>
+              <div
+                class="lg:text-[16px] text-[13px] fot-[400] leading-[28px] line-clamp-3"
+              >
+                See how pivoting to Webflow changed one person’s sales strategy
+                and allowed him to attract
+              </div>
+              <a
+                href="./BlogPage.html"
+                class="flex gap-x-3 items-center dark:text-white"
+                >Read More
+                <img
+                  class="dark:hidden"
+                  src="./public/Images/This is how we work/pink-flash.svg"
+                  alt="" />
+                <img
+                  class="hidden dark:inline-block"
+                  src="./public/Images/This is how we work/yellow-flash.svg"
+                  alt=""
+              /></a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!--Blog Form End-->
+
+      <!--Footer Start-->
+      <div class="w-full lg:h-fit">
+        <div
+          class="w-full h-fit lg:h-[400px] bg-tint-blue flex flex-col lg:flex-row pt-[30px]"
+        >
+          <div
+            class="w-full lg:w-[40%] flex flex-col gap-[25px] text-white lg:m-auto lg:pl-[5%]"
+          >
+            <img
+              class="w-[122px] m-auto lg:m-0"
+              src="./public/Images/Footer/logo-footer.svg"
+              alt=""
+            />
+            <div
+              class="w-full lg:w-[60%] text-center lg:text-start p-[20px] lg:p-0"
+            >
+              We are always open to discuss your project and improve your online
+              presence.
+            </div>
+            <div class="w-full flex justify-center lg:justify-start">
+              <div
+                class="w-[550px] h-fit bg-yellow flex justify-center lg:justify-start"
+              >
+                <div
+                  class="w-1/2 p-[20px] text-[14px] xl:text-[16px] text-dark-blue flex flex-col justify-center items-center"
+                >
+                  <div class="dark:text-black">Email me at :</div>
+                  <div class="dark:text-black">kiarashsafari0@gmail.com</div>
+                </div>
+                <div
+                  class="w-1/2 p-[20px] text-[14px] xl:text-[16px] text-dark-blue flex flex-col justify-center items-center"
+                >
+                  <div class="dark:text-black">Call me :</div>
+                  <div class="dark:text-black">09399669127</div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div
+            class="w-full lg:w-[40%] m-auto my-[20px] flex flex-col gap-y-[15px] text-center lg:text-start"
+          >
+            <div class="text-[48px] font-[600] text-white">Lets Talk!</div>
+            <div class="w-full lg:w-[65%] p-[20px] lg:p-0 text-white">
+              We are always open to discuss your project, improve your online
+              presence and help with your UX/UI design challenges.
+            </div>
+            <div
+              class="w-full h-[30px] flex gap-x-[30px] mt-[30px] justify-center lg:justify-start"
+            >
+              <a href="#"
+                ><img src="./public/Images/Footer/FaceBook.svg" alt="FaceBook"
+              /></a>
+              <a href="#">
+                <img src="./public/Images/Footer/X.svg" alt="X"
+              /></a>
+              <a href="#">
+                <img
+                  src="./public/Images/Footer/instagram.svg"
+                  alt="instagram"
+                />
+              </a>
+              <a href="#">
+                <img src="./public/Images/Footer/linkein.svg" alt="linkein" />
+              </a>
+            </div>
+          </div>
+        </div>
+        <div class="w-full h-[90px] lg:h-fit flex flex-col-reverse lg:flex-row">
+          <a
+            href="PrivacyPolicy.html"
+            class="w-[100%] lg:w-[50%] h-[45px] lg:h-[90px] flex justify-center lg:justify-start lg:leading-[90px] leading-[45px] dark:text-white lg:pl-[10%]"
+          >
+            Copyright 2022, Finsweet.com
+          </a>
+          <div
+            class="w-[100%] lg:w-[50%] h-[45px] lg:h-[90px] flex justify-center flex-wrap lg:justify-start lg:leading-[90px] leading-[45px] gap-x-[3%] flex-row-reverse lg:pr-[10%] text-black"
+          >
+            <a
+              href="./BlogPage.html"
+              class="font-[500] text-[16px] opacity-70 hover:opacity-100 dark:text-white"
+              >Blog</a
+            >
+            <a
+              href="./Work.html"
+              class="font-[500] text-[16px] opacity-70 hover:opacity-100 dark:text-white"
+              >FAQ</a
+            >
+            <a
+              href="./Pricing.html"
+              class="font-[500] text-[16px] opacity-70 hover:opacity-100 dark:text-white"
+              >Pricing</a
+            >
+            <a
+              href="./Features.html"
+              class="font-[500] text-[16px] opacity-70 hover:opacity-100 dark:text-white"
+              >Features</a
+            >
+            <a
+              href="./AboutUs.html"
+              class="font-[500] text-[16px] opacity-70 hover:opacity-100 dark:text-white"
+              >About us</a
+            >
+            <a
+              href="./index.html"
+              class="font-[500] text-[16px] opacity-70 hover:opacity-100 dark:text-white"
+              >Home</a
+            >
+          </div>
+        </div>
+      </div>
+      <!--Footer End-->
+    </div>
+    <!--Project End-->
+  </body>
+</html>

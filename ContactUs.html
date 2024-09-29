@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Finsweet</title>
+    <link rel="stylesheet" href="public/CSS/main.css" />
+    <link rel="icon" type="image/x-icon" href="./public/Images/favicon.ico">
+</head>
+
+<body>
+    <!--Projrct Start-->
+    <div class="wrapper">
+        <!--Navbar Start-->
+        <div class="w-full h-[92px] bg-tint-blue flex">
+            <div class="w-full lg:w-[80%] h-[92px] m-auto flex items-center justify-between">
+                <a href="./index.html" class="ml-[20px] lg:ml-[0px] hover:scale-110 transition-all duration-300">
+                    <img src="./public/Images/Navbar/logo.svg" alt="logo" class="w-[122px] h-[24.71px]" />
+                </a>
+                <div class="w-fit h-[92px] lg:flex items-center gap-[32px] hidden text-white">
+                    <a href="index.html"
+                        class="font-[500] text-[16px] opacity-70 hover:opacity-100 hover:scale-125 transition-all duration-300">Home</a>
+                    <a href="./AboutUs.html"
+                        class="font-[500] text-[16px] opacity-70 hover:opacity-100 hover:scale-125 transition-all duration-300">About
+                        us</a>
+                    <a href="./Features.html"
+                        class="font-[500] text-[16px] opacity-70 hover:opacity-100 hover:scale-125 transition-all duration-300">Features</a>
+                    <a href="./Pricing.html"
+                        class="font-[500] text-[16px] opacity-70 hover:opacity-100 hover:scale-125 transition-all duration-300">Pricing</a>
+                    <a href="./Work.html"
+                        class="font-[500] text-[16px] opacity-70 hover:opacity-100 hover:scale-125 transition-all duration-300">FAQ</a>
+                    <a href="./BlogPage.html"
+                        class="font-[500] text-[16px] opacity-70 hover:opacity-100 hover:scale-125 transition-all duration-300">Blog</a>
+                    <a href="ContactUs.html"
+                        class="lg:flex w-[185px] h-[60px] rounded-[41px] border-solid border-2 border-[#464974] text-white justify-center items-center hover:bg-yellow hover:text-black dark:hover:bg-black hover:border-none hover:scale-105 transition-all duration-300">
+                        <div>Contact us</div>
+                    </a>
+                </div>
+                <div class="lg:hidden mr-[20px]">
+                    <button class="btn bg-tint-blue w-[60px] h-[60px] border-solid border-2 border-white texb hover:bg-black"
+                        onclick="my_modal_3.showModal()">
+                        <img src="./public/Images/Navbar/menu.svg" alt="" />
+                    </button>
+                    <dialog id="my_modal_3" class="modal bg-tint-blue flex flex-wrap flex-col pl-[3%] items-center gap-[20px]">
+                        <form method="dialog" class="w-full h-10">
+                            <div class="g-[100px]">
+                                <button
+                                    class="btn btn-sm btn-circle btn-ghost absolute right-6 top-2 text-[20px] hover:bg-yellow bg-white text-black">
+                                    ✕
+                                </button>
+                            </div>
+                        </form>
+                        <a href="./index.html"
+                            class="w-[70%] h-[40px] bg-white text-center leading-[40px] rounded-xl dark:hover:text-black hover:bg-yellow transition-all duration-150 dark:bg-black">Home</a>
+                        <a href="./AboutUs.html"
+                            class="w-[70%] h-[40px] bg-white text-center leading-[40px] rounded-xl dark:hover:text-black hover:bg-yellow transition-all duration-150 dark:bg-black">About
+                            us</a>
+                        <a href="./Features.html"
+                            class="w-[70%] h-[40px] bg-white text-center leading-[40px] rounded-xl dark:hover:text-black hover:bg-yellow transition-all duration-150 dark:bg-black">Features</a>
+                        <a href="./Pricing.html"
+                            class="w-[70%] h-[40px] bg-white text-center leading-[40px] rounded-xl dark:hover:text-black hover:bg-yellow transition-all duration-150 dark:bg-black">Pricing</a>
+                        <a href="./Work.html"
+                            class="w-[70%] h-[40px] bg-white text-center leading-[40px] rounded-xl dark:hover:text-black hover:bg-yellow transition-all duration-150 dark:bg-black">FAQ</a>
+                        <a href="./BlogPage.html"
+                            class="w-[70%] h-[40px] bg-white text-center leading-[40px] rounded-xl dark:hover:text-black hover:bg-yellow transition-all duration-150 dark:bg-black">Blog</a>
+                        <a href="./ContactUs.html"
+                            class="w-[70%] h-[60px] bg-white text-center leading-[60px] rounded-xl dark:hover:text-black hover:bg-yellow transition-all duration-150 dark:bg-black">Contact
+                            us</a>
+                    </dialog>
+                </div>
+            </div>
+        </div>
+        <!--Navbar End-->
+
+        <!--Contact Us Start-->
+        <div class="w-[80%] m-auto py-[15vh] flex flex-col gap-y-[5vh]">
+            <div class="text-[25px] lg:text-[40px] font-[600] text-center">Contact Us</div>
+            <div class="w-[60%] m-auto lg:text-[20px] font-[400] text-center leading-[28px] line-clamp-3">Lorem ipsum
+                dolor sit amet,
+                consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore.</div>
+            <div class="w-[80%] m-auto p-[30px] bg-[#F4F6FC] dark:bg-black">
+                <div class="flex flex-col lg:flex-row gap-y-[20px] m-auto">
+                    <div class="lg:w-1/2  flex flex-col gap-y-[20px]">
+                        <div class="flex flex-col gap-y-[7px]">
+                            <div class="text-[18px] font-[400]">Name</div>
+                            <input type="text" placeholder="Enter your name"
+                                class="input input-bordered input-md w-[90%]" />
+                        </div>
+                        <div class="flex flex-col gap-y-[7px]">
+                            <div class="text-[18px] font-[400]">Subject</div>
+                            <input type="text" placeholder="Provide Context"
+                                class="input input-bordered input-md w-[90%]" />
+
+
+                        </div>
+                    </div>
+                    <div class="lg:w-1/2  flex flex-col gap-y-[20px]">
+                        <div class="flex flex-col gap-y-[7px]">
+                            <div class="text-[18px] font-[400]">Email</div>
+                            <input type="text" placeholder="Enter your Email"
+                                class="input input-bordered input-md w-[90%]" />
+
+
+                        </div>
+                        <div class="flex flex-col gap-y-[7px]">
+                            <div class="text-[18px] font-[400]">Subject</div>
+                            <input type="text" placeholder="select Subject"
+                                class="input input-bordered input-md w-[90%]" />
+
+                        </div>
+                    </div>
+                </div>
+                <div class="w-[95%] pt-[20px] flex flex-col gap-y-[20px]">
+                    <div class="text-[18px] font-[400]">Massage</div>
+                    <textarea placeholder="Write your questions here"
+                        class="textarea textarea-bordered textarea-md w-full h-[20vh] resize-none"></textarea>
+                </div>
+                <a href="#" role="button"
+                    class="btn mt-[30px] h-[7vh] hover:bg-yellow rounded-[41px] w-[30%] min-w-[200px] hover:text-black bg-dark-blue text-white">Send
+                    Massege</a>
+
+            </div>
+        </div>
+        <!--Contact Us End-->
+
+        <!--Footer Start-->
+        <div class="w-full lg:h-fit">
+            <div class="w-full h-fit lg:h-[400px] bg-tint-blue flex flex-col lg:flex-row pt-[30px]">
+                <div class="w-full lg:w-[40%] flex flex-col gap-[25px] text-white lg:m-auto lg:pl-[5%]">
+                    <img class="w-[122px] m-auto lg:m-0" src="./public/Images/Footer/logo-footer.svg" alt="" />
+                    <div class="w-full lg:w-[60%] text-center lg:text-start p-[20px] lg:p-0">
+                        We are always open to discuss your project and improve your online
+                        presence.
+                    </div>
+                    <div class="w-full flex justify-center lg:justify-start">
+                        <div class="w-[550px] h-fit bg-yellow flex justify-center lg:justify-start">
+                            <div
+                                class="w-1/2 p-[20px] text-[14px] xl:text-[16px] text-dark-blue flex flex-col justify-center items-center ">
+                                <div class="dark:text-black">Email me at :</div>
+                                <div class="dark:text-black">arazarioun83@gmail.com</div>
+                            </div>
+                            <div
+                                class="w-1/2 p-[20px] text-[14px] xl:text-[16px] text-dark-blue flex flex-col justify-center items-center">
+                                <div class="dark:text-black">Call me :</div>
+                                <div class="dark:text-black">0902 199 4438</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="w-full lg:w-[40%] m-auto my-[20px] flex flex-col gap-y-[15px] text-center lg:text-start">
+                    <div class="text-[48px] font-[600] text-white">Lets Talk!</div>
+                    <div class="w-full lg:w-[65%] p-[20px] lg:p-0 text-white ">
+                        We are always open to discuss your project, improve your online
+                        presence and help with your UX/UI design challenges.
+                    </div>
+                    <div class="w-full h-[30px] flex gap-x-[30px] mt-[30px] justify-center lg:justify-start">
+                        <a href="#" class="hover:scale-125 transition-all duration-300"><img
+                                src="./public/Images/Footer/FaceBook.svg" alt="FaceBook" /></a>
+                        <a href="#" class="hover:scale-125 transition-all duration-300">
+                            <img src="./public/Images/Footer/X.svg" alt="X" /></a>
+                        <a href="#" class="hover:scale-125 transition-all duration-300">
+                            <img src="./public/Images/Footer/instagram.svg" alt="instagram" />
+                        </a>
+                        <a href="#" class="hover:scale-125 transition-all duration-300">
+                            <img src="./public/Images/Footer/linkein.svg" alt="linkein" />
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="w-full h-[90px] lg:h-fit flex flex-col-reverse lg:flex-row">
+                <a href="PrivacyPolicy.html"
+                    class="w-[100%] lg:w-[50%] h-[45px] lg:h-[90px] flex justify-center lg:justify-start lg:leading-[90px] leading-[45px] dark:text-white lg:pl-[10%]">
+                    Copyright 2022, Finsweet.com
+                </a>
+                <div
+                    class="w-[100%] lg:w-[50%] h-[45px] lg:h-[90px] flex justify-center flex-wrap lg:justify-start lg:leading-[90px] leading-[45px] gap-x-[3%] flex-row-reverse lg:pr-[10%] text-black">
+                    <a href="./BlogPage.html"
+                        class="font-[500] text-[16px] opacity-70 hover:opacity-100 dark:text-white hover:scale-110 transition-all duration-300">Blog</a>
+                    <a href="./Work.html"
+                        class="font-[500] text-[16px] opacity-70 hover:opacity-100  dark:text-white hover:scale-110 transition-all duration-300">FAQ</a>
+                    <a href="./Pricing.html"
+                        class="font-[500] text-[16px] opacity-70 hover:opacity-100  dark:text-white hover:scale-110 transition-all duration-300">Pricing</a>
+                    <a href="./Features.html"
+                        class="font-[500] text-[16px] opacity-70 hover:opacity-100  dark:text-white hover:scale-110 transition-all duration-300">Features</a>
+                    <a href="./AboutUs.html"
+                        class="font-[500] text-[16px] opacity-70 hover:opacity-100  dark:text-white hover:scale-110 transition-all duration-300">About
+                        us</a>
+                    <a href="./index.html"
+                        class="font-[500] text-[16px] opacity-70 hover:opacity-100  dark:text-white hover:scale-110 transition-all duration-300">Home</a>
+                </div>
+            </div>
+        </div>
+        <!--Footer End-->
+    </div>
+    <!--Projrct End-->
+</body>
+
+</html>

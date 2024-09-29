@@ -1,0 +1,828 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Finsweet</title>
+    <link rel="stylesheet" href="public/CSS/main.css" />
+    <link rel="icon" type="image/x-icon" href="./public/Images/favicon.ico" />
+  </head>
+
+  <body>
+    <!--Project Start-->
+    <div class="wrapper">
+      <!--Navbar Start-->
+      <div class="w-full h-[92px] bg-tint-blue flex">
+        <div
+          class="w-full lg:w-[80%] h-[92px] m-auto flex items-center justify-between"
+        >
+          <a href="./index.html" class="ml-[20px] lg:ml-[0px]">
+            <img
+              src="./public/Images/Navbar/logo.svg"
+              alt="logo"
+              class="w-[122px] h-[24.71px]"
+            />
+          </a>
+          <div
+            class="w-fit h-[92px] lg:flex items-center gap-[32px] hidden text-white"
+          >
+            <a href="index.html" class="font-[500] text-[16px] opacity-70"
+              >Home</a
+            >
+            <a href="./AboutUs.html" class="font-[500] text-[16px] opacity-70"
+              >About us</a
+            >
+            <a href="./Features.html" class="font-[500] text-[16px] opacity-70"
+              >Features</a
+            >
+            <a href="./Pricing.html" class="font-[500] text-[16px] opacity-70"
+              >Pricing</a
+            >
+            <a href="./Work.html" class="font-[500] text-[16px] opacity-70"
+              >FAQ</a
+            >
+            <a href="./BlogPage.html" class="font-[500] text-[16px] opacity-70"
+              >Blog</a
+            >
+            <a
+              href="ContactUs.html"
+              class="lg:flex w-[185px] h-[60px] rounded-[41px] border-solid border-2 border-[#464974] text-white justify-center items-center hover:bg-yellow hover:text-black dark:hover:bg-black"
+            >
+              <div>Contact us</div>
+            </a>
+          </div>
+          <div class="lg:hidden mr-[20px]">
+            <button
+              class="btn bg-tint-blue w-[60px] h-[60px] border-solid border-2 border-white texb hover:bg-black"
+              onclick="my_modal_3.showModal()"
+            >
+              5
+              <img src="./public/Images/Navbar/menu.svg" alt="" />
+            </button>
+            <dialog
+              id="my_modal_3"
+              class="modal bg-tint-blue flex flex-wrap flex-col pl-[3%] items-center gap-[20px]"
+            >
+              <form method="dialog" class="w-full h-10">
+                <div class="g-[100px]">
+                  <button
+                    type="button"
+                    class="btn btn-sm btn-circle btn-ghost absolute right-6 top-2 text-[20px] hover:bg-yellow bg-white text-black"
+                  >
+                    ✕
+                  </button>
+                </div>
+              </form>
+              <a
+                href="./index.html"
+                class="w-[70%] h-[40px] bg-white text-center leading-[40px] rounded-xl dark:hover:text-black hover:bg-yellow dark:bg-black"
+                >Home</a
+              >
+              <a
+                href="./AboutUs.html"
+                class="w-[70%] h-[40px] bg-white text-center leading-[40px] rounded-xl dark:hover:text-black hover:bg-yellow dark:bg-black"
+                >About us</a
+              >
+              <a
+                href="./Features.html"
+                class="w-[70%] h-[40px] bg-white text-center leading-[40px] rounded-xl dark:hover:text-black hover:bg-yellow dark:bg-black"
+                >Features</a
+              >
+              <a
+                href="./Pricing.html"
+                class="w-[70%] h-[40px] bg-white text-center leading-[40px] rounded-xl dark:hover:text-black hover:bg-yellow dark:bg-black"
+                >Pricing</a
+              >
+              <a
+                href="./Work.html"
+                class="w-[70%] h-[40px] bg-white text-center leading-[40px] rounded-xl dark:hover:text-black hover:bg-yellow dark:bg-black"
+                >FAQ</a
+              >
+              <a
+                href="./BlogPage.html"
+                class="w-[70%] h-[40px] bg-white text-center leading-[40px] rounded-xl dark:hover:text-black hover:bg-yellow dark:bg-black"
+                >Blog</a
+              >
+              <a
+                href="./ContactUs.html"
+                class="w-[70%] h-[60px] bg-white text-center leading-[60px] rounded-xl dark:hover:text-black hover:bg-yellow dark:bg-black"
+                >Contact us</a
+              >
+            </dialog>
+          </div>
+        </div>
+      </div>
+      <!--Navbar End-->
+
+      <!--About us Start-->
+      <div class="w-full h-fit">
+        <div
+          class="w-[80%] m-auto py-[10vh] flex justify-evenly flex-col lg:flex-row-reverse gap-y-[16px]"
+        >
+          <div class="w-[80%] m-auto lg:w-[40%]">
+            <img
+              class="w-[100%] h-[47vh] object-cover object-center"
+              src="./public/Images/AboutUsPage/img-1.jpg"
+              alt=""
+            />
+          </div>
+          <div
+            class="w-[80%] m-auto lg:w-[50%] flex flex-col justify-center items-start gap-y-[16px]"
+          >
+            <div class="text-[18px] font-[500] leading-[32px]">About us</div>
+            <div class="text-[38px] font-[600] leading-[56px] line-clamp-3">
+              Our designs solve problems
+            </div>
+            <div class="text-[16px] font-[400] leading-[28px] line-clamp-3">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+              eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
+              enim ad minim veniam.
+            </div>
+          </div>
+        </div>
+      </div>
+      <!--About us End-->
+
+      <!--who we arwe Start-->
+      <div class="w-[80%] h-fit py-[15vh] m-auto">
+        <div
+          class="w-full bg-[#F4F5F5] dark:bg-black flex lg:flex-row flex-col justify-evenly items-center gap-y-[25px] py-[50px]"
+        >
+          <div class="lg:w-[35%] p-[20px] lg:p-0">
+            <div
+              class="m-auto flex flex-col justify-center items-start gap-y-[16px]"
+            >
+              <div
+                class="w-full lg:text-start text-center text-[14px] lg:text-[18px] font-[500] leading-[32px]"
+              >
+                About us
+              </div>
+              <div
+                class="w-full lg:text-start text-center text-[20px] lg:text-[38px] font-[600] leading-[56px] line-clamp-3"
+              >
+                Our designs solve problems
+              </div>
+              <div
+                class="w-full lg:text-start text-center text-[12px] lg:text-[16px] font-[400] leading-[28px] line-clamp-3"
+              >
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
+                enim ad minim veniam.
+              </div>
+            </div>
+          </div>
+          <div class="lg:w-[35%] p-[20px] lg:p-0">
+            <div
+              class="m-auto flex flex-col justify-center items-start gap-y-[16px]"
+            >
+              <div
+                class="w-full lg:text-start text-center text-[20px] lg:text-[38px] font-[600] leading-[56px] line-clamp-3"
+              >
+                Our designs solve problems
+              </div>
+              <div
+                class="w-full lg:text-start text-center text-[12px] lg:text-[16px] font-[400] leading-[28px] line-clamp-3"
+              >
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
+                enim ad minim veniam.
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="w-full">
+          <img
+            class="w-full h-[45vh] object-cover object-center"
+            src="./public/Images/AboutUsPage/img-2.jpg"
+            alt=""
+          />
+        </div>
+      </div>
+      <!--who we arwe End-->
+
+      <!--Process we Follow Start-->
+      <div class="w-[80%] m-auto pb-[15vh] flex flex-col gap-10">
+        <div class="w-full text-center text-[30px] font-[600]">
+          The Process we Follow
+        </div>
+        <div class="w-full flex justify-between gap-5 flex-wrap">
+          <div class="w-[20%] min-w-[100px] flex flex-col gap-[25px]">
+            <div class="flex gap-[25px]">
+              <img
+                class="dark:hidden"
+                src="./public/Images/AboutUsPage/dot.svg"
+                alt=""
+              />
+              <img
+                class="dark:inline-block hidden"
+                src="./public/Images/AboutUsPage/dotb.svg"
+                alt=""
+              />
+              <img
+                class="dark:hidden"
+                src="./public/Images/AboutUsPage/line.Svg"
+                alt=""
+              />
+              <img
+                class="dark:inline-block hidden"
+                src="./public/Images/AboutUsPage/lineb.Svg"
+                alt=""
+              />
+            </div>
+            <div class="flex flex-wrap flex-col gap-[5px]">
+              <div class="lg:text-[24px] text-[18px] font-[500]">
+                <div class="lg:text-[24px] text-[18px] font-[500]">
+                  Planning
+                </div>
+                <div
+                  class="lg:text-[16px] text-[14px] font-[400] hidden lg:inline-block"
+                >
+                  Lorem ipsum dolor sit amet, consetetur sadipscing elitr.
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="w-[20%] min-w-[100px] flex flex-col gap-[25px]">
+            <div class="flex gap-[25px]">
+              <img
+                class="dark:hidden"
+                src="./public/Images/AboutUsPage/dot.svg"
+                alt=""
+              />
+              <img
+                class="dark:inline-block hidden"
+                src="./public/Images/AboutUsPage/dotb.svg"
+                alt=""
+              />
+              <img
+                class="dark:hidden"
+                src="./public/Images/AboutUsPage/line.Svg"
+                alt=""
+              />
+              <img
+                class="dark:inline-block hidden"
+                src="./public/Images/AboutUsPage/lineb.Svg"
+                alt=""
+              />
+            </div>
+            <div class="flex flex-wrap flex-col gap-[5px]">
+              <div class="lg:text-[24px] text-[18px] font-[500]">
+                <div class="lg:text-[24px] text-[18px] font-[500]">
+                  Conception
+                </div>
+                <div
+                  class="lg:text-[16px] text-[14px] font-[400] hidden lg:inline-block"
+                >
+                  Lorem ipsum dolor sit amet, consetetur sadipscing elitr.
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="w-[20%] min-w-[100px] flex flex-col gap-[25px]">
+            <div class="flex gap-[25px]">
+              <img
+                class="dark:hidden"
+                src="./public/Images/AboutUsPage/dot.svg"
+                alt=""
+              />
+              <img
+                class="dark:inline-block hidden"
+                src="./public/Images/AboutUsPage/dotb.svg"
+                alt=""
+              />
+              <img
+                class="dark:hidden"
+                src="./public/Images/AboutUsPage/line.Svg"
+                alt=""
+              />
+              <img
+                class="dark:inline-block hidden"
+                src="./public/Images/AboutUsPage/lineb.Svg"
+                alt=""
+              />
+            </div>
+            <div class="flex flex-wrap flex-col gap-[5px]">
+              <div class="lg:text-[24px] text-[18px] font-[500]">
+                <div class="lg:text-[24px] text-[18px] font-[500]">Design</div>
+                <div
+                  class="lg:text-[16px] text-[14px] font-[400] hidden lg:inline-block"
+                >
+                  Lorem ipsum dolor sit amet, consetetur sadipscing elitr.
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="w-[20%] min-w-[100px] flex flex-col gap-[25px]">
+            <div class="flex gap-[25px]">
+              <img
+                class="dark:hidden"
+                src="./public/Images/AboutUsPage/dot.svg"
+                alt=""
+              />
+              <img
+                class="dark:inline-block hidden"
+                src="./public/Images/AboutUsPage/dotb.svg"
+                alt=""
+              />
+              <img
+                class="dark:hidden"
+                src="./public/Images/AboutUsPage/line.Svg"
+                alt=""
+              />
+              <img
+                class="dark:inline-block hidden"
+                src="./public/Images/AboutUsPage/lineb.Svg"
+                alt=""
+              />
+            </div>
+            <div class="flex flex-wrap flex-col gap-[5px]">
+              <div class="lg:text-[24px] text-[18px] font-[500]">
+                <div class="lg:text-[24px] text-[18px] font-[500]">
+                  Development
+                </div>
+                <div
+                  class="lg:text-[16px] text-[14px] font-[400] hidden lg:inline-block"
+                >
+                  Lorem ipsum dolor sit amet, consetetur sadipscing elitr.
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!--Process we Follow End-->
+
+      <!--Our mission Start-->
+      <div class="w-full h-fit bg-[#EEF4FA] dark:bg-black">
+        <div
+          class="w-[80%] m-auto py-[10vh] flex justify-evenly flex-col lg:flex-row-reverse gap-y-[16px]"
+        >
+          <div class="w-[80%] m-auto lg:w-[40%]">
+            <img
+              class="w-[100%] h-[47vh] object-cover object-center"
+              src="./public/Images/FeaturesPage/img-1.jpg"
+              alt=""
+            />
+          </div>
+          <div
+            class="w-[80%] m-auto lg:w-[50%] flex flex-col justify-center items-start gap-y-[16px]"
+          >
+            <div class="text-[18px] font-[500] leading-[32px]">Our Mission</div>
+            <div class="text-[38px] font-[600] leading-[56px] line-clamp-3">
+              Inspire, Innovate, Share
+            </div>
+            <div class="text-[16px] font-[400] leading-[28px] line-clamp-3">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+              eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
+              enim ad minim veniam, quis nostrud exercitation ullamco laboris
+              nisi ut aliquip ex ea commodo consequat.
+            </div>
+          </div>
+        </div>
+        <div
+          class="w-[80%] m-auto py-[10vh] flex justify-evenly flex-col lg:flex-row gap-y-[16px]"
+        >
+          <div class="w-[80%] m-auto lg:w-[40%]">
+            <img
+              class="w-[100%] h-[47vh] object-cover object-center"
+              src="./public/Images/FeaturesPage/img-4.jpg"
+              alt=""
+            />
+          </div>
+          <div
+            class="w-[80%] m-auto lg:w-[50%] flex flex-col justify-center items-start gap-y-[16px]"
+          >
+            <div class="text-[18px] font-[500] leading-[32px]">Our Vision</div>
+            <div class="text-[38px] font-[600] leading-[56px] line-clamp-3">
+              Laser focus
+            </div>
+            <div class="text-[16px] font-[400] leading-[28px] line-clamp-3">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+              eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
+              enim ad minim veniam, quis nostrud exercitation ullamco laboris
+              nisi ut aliquip ex ea commodo consequat.
+            </div>
+          </div>
+        </div>
+      </div>
+      <!--Our mission End-->
+
+      <!--Benefits Start-->
+      <div class="w-full h-fit pt-[15vh] pb-[5vh]">
+        <div class="w-[80%] m-auto flex flex-col gap-y-[20px]">
+          <div
+            class="w-[50%] m-auto text-center text-[20px] lg:text-[35px] font-[600]"
+          >
+            The benefits of working with our team
+          </div>
+          <div class="flex flex-wrap gap-[20px] justify-center">
+            <div
+              class="lg:w-[32%] h-fit bg-[#F4F6FC] dark:bg-gray-700 p-[20px] flex flex-col gap-y-[20px]"
+            >
+              <div class="">
+                <img
+                  class="dark:hidden"
+                  src="./public/Images/FeaturesPage/icon2.svg"
+                  alt=""
+                />
+                <img
+                  class="hidden dark:inline-block"
+                  src="./public/Images/FeaturesPage/icon2b.svg"
+                  alt=""
+                />
+              </div>
+              <div class="text-[14px] lg:text-[24px] font-[400] line-clamp-2">
+                Customize with ease
+              </div>
+              <div class="line-clamp-4 text-[13px] lg:text-[16px]">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                eiusmod tempor incididunt ut labore et dolore magna aliqua ut
+                enim.
+              </div>
+            </div>
+            <div
+              class="lg:w-[32%] h-fit bg-[#F4F6FC] dark:bg-gray-700 p-[20px] flex flex-col gap-y-[20px]"
+            >
+              <div class="">
+                <img
+                  class="dark:hidden"
+                  src="./public/Images/FeaturesPage/icon1.svg"
+                  alt=""
+                />
+                <img
+                  class="hidden dark:inline-block"
+                  src="./public/Images/FeaturesPage/icon1b.svg"
+                  alt=""
+                />
+              </div>
+              <div class="text-[14px] lg:text-[24px] font-[400] line-clamp-2">
+                Perfectly Responsive
+              </div>
+              <div class="line-clamp-4 text-[13px] lg:text-[16px]">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                eiusmod tempor incididunt ut labore et dolore magna aliqua ut
+                enim.
+              </div>
+            </div>
+            <div
+              class="lg:w-[32%] h-fit bg-[#F4F6FC] dark:bg-gray-700 p-[20px] flex flex-col gap-y-[20px]"
+            >
+              <div class="">
+                <img
+                  class="dark:hidden"
+                  src="./public/Images/FeaturesPage/icon3.svg"
+                  alt=""
+                />
+                <img
+                  class="hidden dark:inline-block"
+                  src="./public/Images/FeaturesPage/icon3b.svg"
+                  alt=""
+                />
+              </div>
+              <div class="text-[14px] lg:text-[24px] font-[400] line-clamp-2">
+                Friendly Support
+              </div>
+              <div class="line-clamp-4 text-[13px] lg:text-[16px]">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                eiusmod tempor incididunt ut labore et dolore magna aliqua ut
+                enim.
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!--Benefits End-->
+
+      <!--Logo Start-->
+      <div
+        class="w-[80%] m-auto flex justify-evenly items-center flex-wrap gap-[20px] pb-[10vh]"
+      >
+        <div class="">
+          <div class="text-[38px] font-[600] leading-[56px]">100.000+</div>
+          <div class="text-[16px] font-[400] leading-[28px]">Figma Users</div>
+        </div>
+        <div class="bg-white p-[15px] rounded-md">
+          <img src="./public/Images/FeaturesPage/logo1.svg" alt="" />
+        </div>
+        <div class="bg-white p-[15px] rounded-md">
+          <img src="./public/Images/FeaturesPage/logo2.svg" alt="" />
+        </div>
+        <div class="bg-white p-[15px] rounded-md">
+          <img src="./public/Images/FeaturesPage/logo3.svg" alt="" />
+        </div>
+        <div class="bg-white p-[15px] rounded-md">
+          <img src="./public/Images/FeaturesPage/logo4.svg" alt="" />
+        </div>
+        <div class="bg-white p-[15px] rounded-md">
+          <img src="./public/Images/FeaturesPage/logo5.svg" alt="" />
+        </div>
+      </div>
+      <!--Logo End-->
+
+      <!--Our team Start-->
+      <div class="w-full h-fit py-[10vh] bg-[#F4F6FC] dark:bg-black">
+        <div class="w-full text-[48px] font-[600] text-center pb-[5vh]">
+          Meet our team
+        </div>
+        <div
+          class="w-[80%] h-fit m-auto justify-evenly flex flex-wrap gap-[30px]"
+        >
+          <div
+            class="w-[1/2] lg:w-[270px] p-[5vh] bg-white dark:bg-gray-700 flex flex-col gap-y-[16px]"
+          >
+            <div
+              class="flex justify-center items-center relative group w-full h-[160px] overflow-hidden"
+            >
+              <img
+                class="overflow-hidden w-[160px] h-[160px] rounded-[50%] object-cover"
+                src="./public/Images/AboutUsPage/profile-1.jpg"
+                alt=""
+              />
+              <div
+                class="w-full absolute -bottom-full group-hover:bottom-0 transition-all duration-300"
+              >
+                <div
+                  class="w-[160px] m-auto rounded-full flex justify-center items-end gap-3 h-[160px] bg-gradient-to-t from-[#5239FA] to-[#FFFFFF00]"
+                >
+                  <a href="#" class="pb-[20px]"
+                    ><img
+                      class="w-[20px] h-[20px]"
+                      src="./public/Images/Footer/FaceBook.svg"
+                      alt=""
+                  /></a>
+                  <a href="#" class="pb-[20px]"
+                    ><img
+                      class="w-[20px] h-[20px]"
+                      src="./public/Images/Footer/X.svg"
+                      alt=""
+                  /></a>
+                  <a href="#" class="pb-[20px]"
+                    ><img
+                      class="w-[20px] h-[20px]"
+                      src="./public/Images/Footer/instagram.svg"
+                      alt=""
+                  /></a>
+                </div>
+              </div>
+            </div>
+            <div class="w-full text-center text-[28px] font-[500]">
+              John Smith
+            </div>
+            <div class="w-full text-center text-[16px] font-[400] opacity-70">
+              CEO
+            </div>
+          </div>
+          <div
+            class="w-[1/2] lg:w-[270px] p-[5vh] bg-white dark:bg-gray-700 flex flex-col gap-y-[16px]"
+          >
+            <div
+              class="flex justify-center items-center relative group w-full h-[160px] overflow-hidden"
+            >
+              <img
+                class="overflow-hidden w-[160px] h-[160px] rounded-[50%] object-cover"
+                src="./public/Images/AboutUsPage/profile-2.jpg"
+                alt=""
+              />
+              <div
+                class="w-full absolute -bottom-full group-hover:bottom-0 transition-all duration-300"
+              >
+                <div
+                  class="w-[160px] m-auto rounded-full flex justify-center items-end gap-3 h-[160px] bg-gradient-to-t from-[#5239FA] to-[#FFFFFF00]"
+                >
+                  <a href="#" class="pb-[20px]"
+                    ><img
+                      class="w-[20px] h-[20px]"
+                      src="./public/Images/Footer/FaceBook.svg"
+                      alt=""
+                  /></a>
+                  <a href="#" class="pb-[20px]"
+                    ><img
+                      class="w-[20px] h-[20px]"
+                      src="./public/Images/Footer/X.svg"
+                      alt=""
+                  /></a>
+                  <a href="#" class="pb-[20px]"
+                    ><img
+                      class="w-[20px] h-[20px]"
+                      src="./public/Images/Footer/instagram.svg"
+                      alt=""
+                  /></a>
+                </div>
+              </div>
+            </div>
+            <div class="w-full text-center text-[28px] font-[500]">
+              Simon Adams
+            </div>
+            <div class="w-full text-center text-[16px] font-[400] opacity-70">
+              CTO
+            </div>
+          </div>
+          <div
+            class="w-[1/2] lg:w-[270px] p-[5vh] bg-white dark:bg-gray-700 flex flex-col gap-y-[16px]"
+          >
+            <div
+              class="flex justify-center items-center relative group w-full h-[160px] overflow-hidden"
+            >
+              <img
+                class="overflow-hidden w-[160px] h-[160px] rounded-[50%] object-cover"
+                src="./public/Images/AboutUsPage/profile-3.jpg"
+                alt=""
+              />
+              <div
+                class="w-full absolute -bottom-full group-hover:bottom-0 transition-all duration-300"
+              >
+                <div
+                  class="w-[160px] m-auto rounded-full flex justify-center items-end gap-3 h-[160px] bg-gradient-to-t from-[#5239FA] to-[#FFFFFF00]"
+                >
+                  <a href="#" class="pb-[20px]"
+                    ><img
+                      class="w-[20px] h-[20px]"
+                      src="./public/Images/Footer/FaceBook.svg"
+                      alt=""
+                  /></a>
+                  <a href="#" class="pb-[20px]"
+                    ><img
+                      class="w-[20px] h-[20px]"
+                      src="./public/Images/Footer/X.svg"
+                      alt=""
+                  /></a>
+                  <a href="#" class="pb-[20px]"
+                    ><img
+                      class="w-[20px] h-[20px]"
+                      src="./public/Images/Footer/instagram.svg"
+                      alt=""
+                  /></a>
+                </div>
+              </div>
+            </div>
+            <div class="w-full text-center text-[28px] font-[500]">
+              Poul Jones
+            </div>
+            <div class="w-full text-center text-[16px] font-[400] opacity-70">
+              Design Lead
+            </div>
+          </div>
+          <div
+            class="w-[1/2] lg:w-[270px] p-[5vh] bg-white dark:bg-gray-700 flex flex-col gap-y-[16px]"
+          >
+            <div
+              class="flex justify-center items-center relative group w-full h-[160px] overflow-hidden"
+            >
+              <img
+                class="overflow-hidden w-[160px] h-[160px] rounded-[50%] object-cover"
+                src="./public/Images/AboutUsPage/profile-4.jpg"
+                alt=""
+              />
+              <div
+                class="w-full absolute -bottom-full group-hover:bottom-0 transition-all duration-300"
+              >
+                <div
+                  class="w-[160px] m-auto rounded-full flex justify-center items-end gap-3 h-[160px] bg-gradient-to-t from-[#5239FA] to-[#FFFFFF00]"
+                >
+                  <a href="#" class="pb-[20px]"
+                    ><img
+                      class="w-[20px] h-[20px]"
+                      src="./public/Images/Footer/FaceBook.svg"
+                      alt=""
+                  /></a>
+                  <a href="#" class="pb-[20px]"
+                    ><img
+                      class="w-[20px] h-[20px]"
+                      src="./public/Images/Footer/X.svg"
+                      alt=""
+                  /></a>
+                  <a href="#" class="pb-[20px]"
+                    ><img
+                      class="w-[20px] h-[20px]"
+                      src="./public/Images/Footer/instagram.svg"
+                      alt=""
+                  /></a>
+                </div>
+              </div>
+            </div>
+            <div class="w-full text-center text-[28px] font-[500]">
+              Sara Hardin
+            </div>
+            <div class="w-full text-center text-[16px] font-[400] opacity-70">
+              Project Manager
+            </div>
+          </div>
+        </div>
+      </div>
+      <!--Our team End-->
+
+      <!--Footer Start-->
+      <div class="w-full lg:h-fit">
+        <div
+          class="w-full h-fit lg:h-[400px] bg-tint-blue flex flex-col lg:flex-row pt-[30px]"
+        >
+          <div
+            class="w-full lg:w-[40%] flex flex-col gap-[25px] text-white lg:m-auto lg:pl-[5%]"
+          >
+            <img
+              class="w-[122px] m-auto lg:m-0"
+              src="./public/Images/Footer/logo-footer.svg"
+              alt=""
+            />
+            <div
+              class="w-full lg:w-[60%] text-center lg:text-start p-[20px] lg:p-0"
+            >
+              We are always open to discuss your project and improve your online
+              presence.
+            </div>
+            <div class="w-full flex justify-center lg:justify-start">
+              <div
+                class="w-[550px] h-fit bg-yellow flex justify-center lg:justify-start"
+              >
+                <div
+                  class="w-1/2 p-[20px] text-[14px] xl:text-[16px] text-dark-blue flex flex-col justify-center items-center"
+                >
+                  <div class="dark:text-black">Email me at :</div>
+                  <div class="dark:text-black">kiarashsafari0@gmail.com</div>
+                </div>
+                <div
+                  class="w-1/2 p-[20px] text-[14px] xl:text-[16px] text-dark-blue flex flex-col justify-center items-center"
+                >
+                  <div class="dark:text-black">Call me :</div>
+                  <div class="dark:text-black">09399669127</div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div
+            class="w-full lg:w-[40%] m-auto my-[20px] flex flex-col gap-y-[15px] text-center lg:text-start"
+          >
+            <div class="text-[48px] font-[600] text-white">Lets Talk!</div>
+            <div class="w-full lg:w-[65%] p-[20px] lg:p-0 text-white">
+              We are always open to discuss your project, improve your online
+              presence and help with your UX/UI design challenges.
+            </div>
+            <div
+              class="w-full h-[30px] flex gap-x-[30px] mt-[30px] justify-center lg:justify-start"
+            >
+              <a href="#"
+                ><img src="./public/Images/Footer/FaceBook.svg" alt="FaceBook"
+              /></a>
+              <a href="#">
+                <img src="./public/Images/Footer/X.svg" alt="X"
+              /></a>
+              <a href="#">
+                <img
+                  src="./public/Images/Footer/instagram.svg"
+                  alt="instagram"
+                />
+              </a>
+              <a href="#">
+                <img src="./public/Images/Footer/linkein.svg" alt="linkein" />
+              </a>
+            </div>
+          </div>
+        </div>
+        <div class="w-full h-[90px] lg:h-fit flex flex-col-reverse lg:flex-row">
+          <a
+            href="PrivacyPolicy.html"
+            class="w-[100%] lg:w-[50%] h-[45px] lg:h-[90px] flex justify-center lg:justify-start lg:leading-[90px] leading-[45px] dark:text-white lg:pl-[10%]"
+          >
+            Copyright 2022, Finsweet.com
+          </a>
+          <div
+            class="w-[100%] lg:w-[50%] h-[45px] lg:h-[90px] flex justify-center flex-wrap lg:justify-start lg:leading-[90px] leading-[45px] gap-x-[3%] flex-row-reverse lg:pr-[10%] text-black"
+          >
+            <a
+              href="./BlogPage.html"
+              class="font-[500] text-[16px] opacity-70 hover:opacity-100 dark:text-white "
+              >Blog</a
+            >
+            <a
+              href="./Work.html"
+              class="font-[500] text-[16px] opacity-70 hover:opacity-100 dark:text-white "
+              >FAQ</a
+            >
+            <a
+              href="./Pricing.html"
+              class="font-[500] text-[16px] opacity-70 hover:opacity-100 dark:text-white "
+              >Pricing</a
+            >
+            <a
+              href="./Features.html"
+              class="font-[500] text-[16px] opacity-70 hover:opacity-100 dark:text-white "
+              >Features</a
+            >
+            <a
+              href="./AboutUs.html"
+              class="font-[500] text-[16px] opacity-70 hover:opacity-100 dark:text-white "
+              >About us</a
+            >
+            <a
+              href="./index.html"
+              class="font-[500] text-[16px] opacity-70 hover:opacity-100 dark:text-white "
+              >Home</a
+            >
+          </div>
+        </div>
+      </div>
+      <!--Footer End-->
+    </div>
+    <!--Project End-->
+  </body>
+</html>

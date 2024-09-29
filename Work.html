@@ -1,0 +1,559 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Finsweet</title>
+    <link rel="stylesheet" href="public/CSS/main.css" />
+    <link rel="icon" type="image/x-icon" href="./public/Images/favicon.ico" />
+  </head>
+
+  <body>
+    <!--Project Start-->
+    <din class="wrapper">
+      <!--Navbar Start-->
+      <div class="w-full h-[92px] bg-tint-blue flex">
+        <div
+          class="w-full lg:w-[80%] h-[92px] m-auto flex items-center justify-between"
+        >
+          <a href="./index.html" class="ml-[20px] lg:ml-[0px]">
+            <img
+              src="./public/Images/Navbar/logo.svg"
+              alt="logo"
+              class="w-[122px] h-[24.71px]"
+            />
+          </a>
+          <div
+            class="w-fit h-[92px] lg:flex items-center gap-[32px] hidden text-white"
+          >
+            <a href="index.html" class="font-[500] text-[16px] opacity-70"
+              >Home</a
+            >
+            <a href="./AboutUs.html" class="font-[500] text-[16px] opacity-70"
+              >About us</a
+            >
+            <a href="./Features.html" class="font-[500] text-[16px] opacity-70"
+              >Features</a
+            >
+            <a href="./Pricing.html" class="font-[500] text-[16px] opacity-70"
+              >Pricing</a
+            >
+            <a href="./Work.html" class="font-[500] text-[16px] opacity-70"
+              >FAQ</a
+            >
+            <a href="./BlogPage.html" class="font-[500] text-[16px] opacity-70"
+              >Blog</a
+            >
+            <a
+              href="ContactUs.html"
+              class="lg:flex w-[185px] h-[60px] rounded-[41px] border-solid border-2 border-[#464974] text-white justify-center items-center hover:bg-yellow hover:text-black dark:hover:bg-black hover:border-none hover:scale-105 transition-all duration-300"
+            >
+              <div>Contact us</div>
+            </a>
+          </div>
+          <div class="lg:hidden mr-[20px]">
+            <button
+              class="btn bg-tint-blue w-[60px] h-[60px] border-solid border-2 border-white texb hover:bg-black"
+              onclick="my_modal_3.showModal()"
+            >
+              f
+              <img src="./public/Images/Navbar/menu.svg" alt="" />
+            </button>
+            <dialog
+              id="my_modal_3"
+              class="modal bg-tint-blue flex flex-wrap flex-col pl-[3%] items-center gap-[20px]"
+            >
+              <form method="dialog" class="w-full h-10">
+                <div class="g-[100px]">
+                  <button
+                    type="button"
+                    class="btn btn-sm btn-circle btn-ghost absolute right-6 top-2 text-[20px] hover:bg-yellow bg-white text-black"
+                  >
+                    ✕
+                  </button>
+                </div>
+              </form>
+              <a
+                href="./index.html"
+                class="w-[70%] h-[40px] bg-white text-center leading-[40px] rounded-xl dark:hover:text-black hover:bg-yellow dark:bg-black"
+                >Home</a
+              >
+              <a
+                href="./AboutUs.html"
+                class="w-[70%] h-[40px] bg-white text-center leading-[40px] rounded-xl dark:hover:text-black hover:bg-yellow dark:bg-black"
+                >About us</a
+              >
+              <a
+                href="./Features.html"
+                class="w-[70%] h-[40px] bg-white text-center leading-[40px] rounded-xl dark:hover:text-black hover:bg-yellow dark:bg-black"
+                >Features</a
+              >
+              <a
+                href="./Pricing.html"
+                class="w-[70%] h-[40px] bg-white text-center leading-[40px] rounded-xl dark:hover:text-black hover:bg-yellow dark:bg-black"
+                >Pricing</a
+              >
+              <a
+                href="./Work.html"
+                class="w-[70%] h-[40px] bg-white text-center leading-[40px] rounded-xl dark:hover:text-black hover:bg-yellow dark:bg-black"
+                >FAQ</a
+              >
+              <a
+                href="./BlogPage.html"
+                class="w-[70%] h-[40px] bg-white text-center leading-[40px] rounded-xl dark:hover:text-black hover:bg-yellow dark:bg-black"
+                >Blog</a
+              >
+              <a
+                href="./ContactUs.html"
+                class="w-[70%] h-[60px] bg-white text-center leading-[60px] rounded-xl dark:hover:text-black hover:bg-yellow dark:bg-black"
+                >Contact us</a
+              >
+            </dialog>
+          </div>
+        </div>
+      </div>
+      <!--Navbar End-->
+
+      <!--Work Hero Start-->
+      <div class="w-full h-fit bg-[#F4F6FC] dark:bg-black py-[12vh]">
+        <div
+          class="w-[80%] lg:w-[50%] m-auto text-center flex flex-col gap-y-[16px]"
+        >
+          <div class="text-[14px] lg:text-[16px] font-[500]">
+            What we Created
+          </div>
+          <div class="text-[30px] lg:text-[48px] font-[600]">
+            Our Work Portfolio
+          </div>
+          <div class="text-[14px] lg:text-[16px] font-[500]">
+            We help teams create great digital products by providing them with
+            tools and technology to make the design-to-code process universally
+            accessible.
+          </div>
+          <div class="">
+            <div
+              class="w-full h-[30px] flex gap-x-[30px] m-auto p-[30px] justify-center lg:justify-center"
+            >
+              <a
+                href="#"
+                class="dark:bg-white p-[15px] flex justify-center items-center rounded-full"
+                ><img
+                  src="./public/Images/WorkPage/faceBook.svg"
+                  alt="FaceBook"
+              /></a>
+              <a
+                href="#"
+                class="dark:bg-white p-[15px] flex justify-center items-center rounded-full"
+              >
+                <img src="./public/Images/WorkPage/tweter.svg" alt="X"
+              /></a>
+              <a
+                href="#"
+                class="dark:bg-white p-[15px] flex justify-center items-center rounded-full"
+              >
+                <img
+                  src="./public/Images/WorkPage/instagram.svg"
+                  alt="instagram"
+                />
+              </a>
+              <a
+                href="#"
+                class="dark:bg-white p-[15px] flex justify-center items-center rounded-full"
+              >
+                <img
+                  src="./public/Images/WorkPage/linkedin.svg"
+                  alt="linkein"
+                />
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!--Work Hero End-->
+
+      <!--Our Work Start-->
+      <div class="w-[80%] m-auto h-fit py-[15vh] flex flex-col gap-y-[50px]">
+        <div class="flex justify-center items-center gap-x-5 lg:gap-x-[33px]">
+          <a
+            href="#"
+            class="text-[14px] lg:text-[18px] opacity-70 hover:text-royal-blue dark:hover:text-yellow hover:opacity-100"
+            >All</a
+          >
+          <a
+            href="#"
+            class="text-[14px] lg:text-[18px] opacity-70 hover:text-royal-blue dark:hover:text-yellow hover:opacity-100"
+            >UI Design</a
+          >
+          <a
+            href="#"
+            class="text-[14px] lg:text-[18px] opacity-70 hover:text-royal-blue dark:hover:text-yellow hover:opacity-100"
+            >Webflow Design</a
+          >
+          <a
+            href="#"
+            class="text-[14px] lg:text-[18px] opacity-70 hover:text-royal-blue dark:hover:text-yellow hover:opacity-100"
+            >Figma Design</a
+          >
+        </div>
+        <div class="lg:flex flex-wrap justify-between gap-[40px]">
+          <div class="lg:w-[45%] flex justify-center items-center m-auto mb-4">
+            <div class="w-full text-dark-blue flex-col flex gap-y-[16px]">
+              <div
+                class="w-full h-fit bg-gradient-to-tl from-[#9EB6C8] to-[#F5EDE2]"
+              >
+                <img
+                  class="p-[30px] w-full h-[50vh] object-cover object-top"
+                  src="./public/Images/WorkPage/img-6.jpg"
+                  alt=""
+                />
+              </div>
+              <div class="font-[600] lg:text-[38px] text-[25px]">
+                Template 1
+              </div>
+              <div
+                class="lg:text-[16px] text-[13px] fot-[400] leading-[28px] line-clamp-3"
+              >
+                SApparently we had reached a great height in the atmosphere, for
+                the sky was a dead black, and the stars had ceased to twinkle.
+              </div>
+              <a
+                href="./ReadCaseStudies.html"
+                class="flex gap-x-3 items-center text-royal-blue dark:text-yellow"
+                >View Portfolio
+                <img
+                  class="dark:hidden"
+                  src="./public/Images/Our Work/black flash.svg"
+                  alt="" />
+                <img
+                  class="dark:inline-block hidden"
+                  src="./public/Images/Our Work/yellow flash.svg"
+                  alt=""
+              /></a>
+            </div>
+          </div>
+          <div class="lg:w-[45%] flex justify-center items-center m-auto mb-4">
+            <div class="w-full text-dark-blue flex-col flex gap-y-[16px]">
+              <div
+                class="w-full h-fit bg-gradient-to-tl from-[#635DEE] to-[#FFD3AF]"
+              >
+                <img
+                  class="p-[30px] w-full h-[50vh] object-cover object-top"
+                  src="./public/Images/WorkPage/img-4.jpg"
+                  alt=""
+                />
+              </div>
+              <div class="font-[600] lg:text-[38px] text-[25px]">
+                Template 2
+              </div>
+              <div
+                class="lg:text-[16px] text-[13px] fot-[400] leading-[28px] line-clamp-3"
+              >
+                SApparently we had reached a great height in the atmosphere, for
+                the sky was a dead black, and the stars had ceased to twinkle.
+              </div>
+              <a
+                href="./ReadCaseStudies.html"
+                class="flex gap-x-3 items-center text-royal-blue dark:text-yellow"
+                >View Portfolio
+                <img
+                  class="dark:hidden"
+                  src="./public/Images/Our Work/black flash.svg"
+                  alt=""
+                />
+                <img
+                  class="dark:inline-block hidden"
+                  src="./public/Images/Our Work/yellow flash.svg"
+                  alt=""
+                />
+              </a>
+            </div>
+          </div>
+          <div class="lg:w-[45%] flex justify-center items-center m-auto mb-4">
+            <div class="w-full text-dark-blue flex-col flex gap-y-[16px]">
+              <div
+                class="w-full h-fit bg-gradient-to-tl from-[#C9C7C6] to-[#EEBCA6]"
+              >
+                <img
+                  class="p-[30px] w-full h-[50vh] object-cover object-top"
+                  src="./public/Images/WorkPage/img-2.jpg"
+                  alt=""
+                />
+              </div>
+              <div class="font-[600] lg:text-[38px] text-[25px]">
+                Template 3
+              </div>
+              <div
+                class="lg:text-[16px] text-[13px] fot-[400] leading-[28px] line-clamp-3"
+              >
+                SApparently we had reached a great height in the atmosphere, for
+                the sky was a dead black, and the stars had ceased to twinkle.
+              </div>
+              <a
+                href="./ReadCaseStudies.html"
+                class="flex gap-x-3 items-center text-royal-blue dark:text-yellow"
+                >View Portfolio
+                <img
+                  class="dark:hidden"
+                  src="./public/Images/Our Work/black flash.svg"
+                  alt=""
+                />
+                <img
+                  class="dark:inline-block hidden"
+                  src="./public/Images/Our Work/yellow flash.svg"
+                  alt=""
+                />
+              </a>
+            </div>
+          </div>
+          <div class="lg:w-[45%] flex justify-center items-center m-auto mb-4">
+            <div class="w-full text-dark-blue flex-col flex gap-y-[16px]">
+              <div
+                class="w-full h-fit bg-gradient-to-tl from-[#9DA5F2] to-[#C1E6F2]"
+              >
+                <img
+                  class="p-[30px] w-full h-[50vh] object-cover object-top"
+                  src="./public/Images/WorkPage/img-5.jpg"
+                  alt=""
+                />
+              </div>
+              <div class="font-[600] lg:text-[38px] text-[25px]">
+                Template 4
+              </div>
+              <div
+                class="lg:text-[16px] text-[13px] fot-[400] leading-[28px] line-clamp-3"
+              >
+                SApparently we had reached a great height in the atmosphere, for
+                the sky was a dead black, and the stars had ceased to twinkle.
+              </div>
+              <a
+                href="./ReadCaseStudies.html"
+                class="flex gap-x-3 items-center text-royal-blue dark:text-yellow"
+                >View Portfolio
+                <img
+                  class="dark:hidden"
+                  src="./public/Images/Our Work/black flash.svg"
+                  alt=""
+                />
+                <img
+                  class="dark:inline-block hidden"
+                  src="./public/Images/Our Work/yellow flash.svg"
+                  alt=""
+                />
+              </a>
+            </div>
+          </div>
+          <div class="lg:w-[45%] flex justify-center items-center m-auto mb-4">
+            <div class="w-full text-dark-blue flex-col flex gap-y-[16px]">
+              <div
+                class="w-full h-fit bg-gradient-to-tl from-[#9DF4D7] to-[#C6BBF6]"
+              >
+                <img
+                  class="p-[30px] w-full h-[50vh] object-cover object-top"
+                  src="./public/Images/WorkPage/img-3.jpg"
+                  alt=""
+                />
+              </div>
+              <div class="font-[600] lg:text-[38px] text-[25px]">
+                Template 5
+              </div>
+              <div
+                class="lg:text-[16px] text-[13px] fot-[400] leading-[28px] line-clamp-3"
+              >
+                SApparently we had reached a great height in the atmosphere, for
+                the sky was a dead black, and the stars had ceased to twinkle.
+              </div>
+              <a
+                href="./ReadCaseStudies.html"
+                class="flex gap-x-3 items-center text-royal-blue dark:text-yellow"
+                >View Portfolio
+                <img
+                  class="dark:hidden"
+                  src="./public/Images/Our Work/black flash.svg"
+                  alt=""
+                />
+                <img
+                  class="dark:inline-block hidden"
+                  src="./public/Images/Our Work/yellow flash.svg"
+                  alt=""
+                />
+              </a>
+            </div>
+          </div>
+          <div class="lg:w-[45%] flex justify-center items-center m-auto mb-4">
+            <div class="w-full text-dark-blue flex-col flex gap-y-[16px]">
+              <div
+                class="w-full h-fit bg-gradient-to-tl from-[#D6AFEB] to-[#D2D5F8]"
+              >
+                <img
+                  class="p-[30px] w-full h-[50vh] object-cover object-top"
+                  src="./public/Images/WorkPage/img-1.jpg"
+                  alt=""
+                />
+              </div>
+              <div class="font-[600] lg:text-[38px] text-[25px]">
+                Template 6
+              </div>
+              <div
+                class="lg:text-[16px] text-[13px] fot-[400] leading-[28px] line-clamp-3"
+              >
+                SApparently we had reached a great height in the atmosphere, for
+                the sky was a dead black, and the stars had ceased to twinkle.
+              </div>
+              <a
+                href="./ReadCaseStudies.html"
+                class="flex gap-x-3 items-center text-royal-blue dark:text-yellow"
+                >View Portfolio
+                <img
+                  class="dark:hidden"
+                  src="./public/Images/Our Work/black flash.svg"
+                  alt=""
+                />
+                <img
+                  class="dark:inline-block hidden"
+                  src="./public/Images/Our Work/yellow flash.svg"
+                  alt=""
+                />
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!--Our Work End-->
+
+      <!--CTA Section Start-->
+      <div
+        class="w-[80%] lg:w-1/2 h-fit m-auto text-center flex flex-col gap-y-[25px] p-[10vh]"
+      >
+        <div class="text-[30px] lg:text-[42px] font-[600]">
+          Let's build something great together
+        </div>
+        <div class="text-[14px] lg:text-[16px] font-[400] leading-[28px]">
+          Nullam vitae purus at tortor mattis dapibus. Morbi purus est,
+          ultricies nec dolor sit amet, scelerisque cursus purus.
+        </div>
+        <a href="ContactUs.html"
+          ><button
+            href="./ContactUs.html"
+            class="btn w-[60%] lg:w-[30%] h-[10vh] hover:scale-105 m-auto bg-yellow text-black hover:bg-yellow rounded-[41px]"
+          >
+            Contact us
+          </button></a
+        >
+      </div>
+      <!--CTA Section End-->
+
+      <!--Footer Start-->
+      <div class="w-full lg:h-fit">
+        <div
+          class="w-full h-fit lg:h-[400px] bg-tint-blue flex flex-col lg:flex-row pt-[30px]"
+        >
+          <div
+            class="w-full lg:w-[40%] flex flex-col gap-[25px] text-white lg:m-auto lg:pl-[5%]"
+          >
+            <img
+              class="w-[122px] m-auto lg:m-0"
+              src="./public/Images/Footer/logo-footer.svg"
+              alt=""
+            />
+            <div
+              class="w-full lg:w-[60%] text-center lg:text-start p-[20px] lg:p-0"
+            >
+              We are always open to discuss your project and improve your online
+              presence.
+            </div>
+            <div class="w-full flex justify-center lg:justify-start">
+              <div
+                class="w-[550px] h-fit bg-yellow flex justify-center lg:justify-start"
+              >
+                <div
+                  class="w-1/2 p-[20px] text-[14px] xl:text-[16px] text-dark-blue flex flex-col justify-center items-center"
+                >
+                  <div class="dark:text-black">Email me at :</div>
+                  <div class="dark:text-black">kiarashsafari0@gmail.com</div>
+                </div>
+                <div
+                  class="w-1/2 p-[20px] text-[14px] xl:text-[16px] text-dark-blue flex flex-col justify-center items-center"
+                >
+                  <div class="dark:text-black">Call me :</div>
+                  <div class="dark:text-black">0939 96 69 127</div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div
+            class="w-full lg:w-[40%] m-auto my-[20px] flex flex-col gap-y-[15px] text-center lg:text-start"
+          >
+            <div class="text-[48px] font-[600] text-white">Lets Talk!</div>
+            <div class="w-full lg:w-[65%] p-[20px] lg:p-0 text-white">
+              We are always open to discuss your project, improve your online
+              presence and help with your UX/UI design challenges.
+            </div>
+            <div
+              class="w-full h-[30px] flex gap-x-[30px] mt-[30px] justify-center lg:justify-start"
+            >
+              <a href="./ReadCaseStudies.html"
+                ><img src="./public/Images/Footer/FaceBook.svg" alt="FaceBook"
+              /></a>
+              <a href="#">
+                <img src="./public/Images/Footer/X.svg" alt="X"
+              /></a>
+              <a href="#">
+                <img
+                  src="./public/Images/Footer/instagram.svg"
+                  alt="instagram"
+                />
+              </a>
+              <a href="#">
+                <img src="./public/Images/Footer/linkein.svg" alt="linkein" />
+              </a>
+            </div>
+          </div>
+        </div>
+        <div class="w-full h-[90px] lg:h-fit flex flex-col-reverse lg:flex-row">
+          <a
+            href="PrivacyPolicy.html"
+            class="w-[100%] lg:w-[50%] h-[45px] lg:h-[90px] flex justify-center lg:justify-start lg:leading-[90px] leading-[45px] dark:text-white lg:pl-[10%]"
+          >
+            Copyright 2022, Finsweet.com
+          </a>
+          <div
+            class="w-[100%] lg:w-[50%] h-[45px] lg:h-[90px] flex justify-center flex-wrap lg:justify-start lg:leading-[90px] leading-[45px] gap-x-[3%] flex-row-reverse lg:pr-[10%] text-black"
+          >
+            <a
+              href="./BlogPage.html"
+              class="font-[500] text-[16px] opacity-70 hover:opacity-100 dark:text-white"
+              >Blog</a
+            >
+            <a
+              href="./Work.html"
+              class="font-[500] text-[16px] opacity-70 hover:opacity-100 dark:text-white"
+              >FAQ</a
+            >
+            <a
+              href="./Pricing.html"
+              class="font-[500] text-[16px] opacity-70 hover:opacity-100 dark:text-white"
+              >Pricing</a
+            >
+            <a
+              href="./Features.html"
+              class="font-[500] text-[16px] opacity-70 hover:opacity-100 dark:text-white"
+              >Features</a
+            >
+            <a
+              href="./AboutUs.html"
+              class="font-[500] text-[16px] opacity-70 hover:opacity-100 dark:text-white"
+              >About us</a
+            >
+            <a
+              href="./index.html"
+              class="font-[500] text-[16px] opacity-70 hover:opacity-100 dark:text-white"
+              >Home</a
+            >
+          </div>
+        </div>
+      </div>
+      <!--Footer End-->
+    </din>
+    <!--Project End-->
+  </body>
+</html>

@@ -1,0 +1,53 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  * {
+    @apply font-[Poppins] box-border m-[0] p-[0] scroll-smooth dark:text-white;
+  }
+}
+
+@font-face {
+  font-family: Poppins;
+  src: url("../fonts/Poppins-Bold.eot");
+  src: url("../fonts/Poppins-Bold.woff");
+  src: url("../fonts/Poppins-Bold.woff2");
+  src: url("../fonts/Poppins-Bold.ttf");
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: Poppins;
+  src: url("../fonts/Poppins-Medium.eot");
+  src: url("../fonts/Poppins-Medium.woff");
+  src: url("../fonts/Poppins-Medium.woff2");
+  src: url("../fonts/Poppins-Medium.ttf");
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: Poppins;
+  src: url("../fonts/Poppins-Regular.eot");
+  src: url("../fonts/Poppins-Regular.woff");
+  src: url("../fonts/Poppins-Regular.woff2");
+  src: url("../fonts/Poppins-Regular.ttf");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Poppins";
+  src: url("../fonts/Poppins-Thin.eot");
+  src: url("../fonts/Poppins-Thin.woff");
+  src: url("../fonts/Poppins-Thin.woff2");
+  src: url("../fonts/Poppins-Thin.ttf");
+  font-weight: 100;
+  font-style: normal;
+  font-display: swap;
+}
